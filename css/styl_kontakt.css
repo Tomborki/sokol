@@ -1,0 +1,155 @@
+.flex_kontakt {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+
+}
+
+.person_flex {
+
+    display: block;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: all .35s ease-out;
+
+}
+
+.person_flex:hover {
+
+    border: 2px solid red;
+    transition: all .35s ease-out;
+
+}
+
+.jmeno_kontakt {
+
+    font-family:'Hammersmith One', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.avatar {
+
+    margin: 10px;
+
+}
+
+.cislo_kontakt {
+
+    font-family: 'Signika', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.email_kontakt {
+
+    font-family: 'Signika', sans-serif;
+    margin-top: 0px;
+
+}
+
+.funkce_kontakt {
+
+    font-family: 'Signika', sans-serif;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.flex_kontakt_odd {
+
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+
+}
+
+.person_odd_flex {
+
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: all .35s ease-out;
+
+}
+
+.person_odd_flex:hover {
+
+    border: 2px solid red;
+    transition: all .35s ease-out;
+
+}
+
+.jmeno_kontakt_odd {
+
+    font-family:'Hammersmith One', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+
+}
+
+.cislo_kontakt_odd {
+
+    font-family: 'Signika', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.email_kontakt_odd {
+
+    font-family: 'Signika', sans-serif;
+    margin-top: 0px;
+
+}
+
+.funkce_kontakt_odd {
+
+    font-family: 'Signika', sans-serif;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.flex_kontakt_ost {
+
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+
+}

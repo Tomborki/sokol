@@ -1,0 +1,343 @@
+
+/*__Fonts__*/
+/*  
+font-family: 'Signika', sans-serif; 
+font-family: 'Hammersmith One', sans-serif;*/
+
+
+
+
+#historie_zacatek {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 29px;
+}
+
+
+.zacatek {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+}
+
+#container_zacatek {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    position: relative;
+    top: -40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+        @media screen and (max-width: 1276px) {
+            
+                        #container_zacatek {
+                        padding: 0px;
+                        padding-top: 30px; 
+                        padding-bottom: 29px;
+                    }
+    
+                        
+        }
+
+@media screen and (max-width: 1016px) {
+    #container_zacatek {
+        padding-top: 1px;
+    }
+    
+    #zacatek {
+        font-size: 19px;
+    }
+}
+
+
+.kolecka {
+    display: none;
+}
+
+.rodic_historie {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: -38px;
+}
+
+.flex_historie {
+    margin: auto;
+}
+
+.historie_info {
+    max-width: 435px;
+    width: 100%;
+    border: 1.5px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.flex_historie strany {
+    max-width: fit-content;
+    width: 100%; 
+    
+}
+
+.flex_historie osa {
+    background-image: url(../img/osa_svisla.jpg);
+    height: 2019px;
+    max-width: 300px;
+    width: 100%;
+}
+
+h2.nadpis_historie {
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+}
+
+
+
+p.historie_popis {
+    font-family: 'Signika', sans-serif; 
+}
+
+
+.hi_sokol {
+    position: relative;
+    top: -365px;
+}
+
+.hi_volejbal {
+    position: relative;  
+    top: -137px;
+}
+
+.hi_kultur {
+    position: relative;
+    top: 106px;
+}
+
+.hi_tenis {
+    position: relative;
+    top: 348px;
+}
+
+.hi_jednota {
+    position: relative;
+    top: -659px;
+}
+
+.hi_gymnastika {
+    position: relative;
+    top: -230px;
+}
+
+.hi_badminton {
+    position: relative;
+    top: -4px;
+}
+
+.hi_nohejbal {
+    position: relative;
+    top: 200px;
+}
+
+
+
+    
+
+#container_konec {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#historie_konec {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+
+
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+@media screen and (max-width: 1276px) {
+    
+    p {
+    margin: 10px;
+}
+    
+    #container_konec {
+        padding: 0px;
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+    
+    .kolecka {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+    
+    .rodic_historie {
+        display: block;
+    }
+    
+    .not-active {
+        display: none;
+    }
+    
+    .hi_sokol {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_volejbal {
+                        position: relative;  
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_kultur {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_tenis {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_jednota {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_gymnastika {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_badminton {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+                    .hi_nohejbal {
+                        position: relative;
+                        top: 0px;
+                        margin: auto;
+                        margin-top: 30px;
+                        padding-bottom: 20px;
+    margin-bottom: 30px;
+                    }
+    
+}
+
+@media screen and (max-width: 475px) {
+    
+    .hi_sokol {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_volejbal {
+                       padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_kultur {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_tenis {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_jednota {
+                       padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_gymnastika {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_badminton {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                    }
+
+                    .hi_nohejbal {
+                        padding: 0px;
+                            border: 0px solid #f2f2f2;
+                        padding-bottom: 20px;
+                        margin-bottom: 30px;
+                    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
