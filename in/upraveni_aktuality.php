@@ -32,9 +32,9 @@
       $id_aktuality = $_GET["upravit"];
 
       $sql = "SELECT id, nazev, kategorie, upoutavka, obsah FROM aktuality WHERE id=$id_aktuality";
-      $result = $conn->query($sql);
+      $result = mysqli_query($conn, $sql);
 
-      while($row = $result->fetch_assoc()) {
+      while($row = mysqli_fetch_assoc($result)) {
       $nazev = $row["nazev"];
       $kategorie = $row["kategorie"];
       $upoutavka = $row["upoutavka"];
