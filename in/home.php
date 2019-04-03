@@ -10,7 +10,7 @@
     <body>
 
         <div class="liska_form">
-            <img class="logo_form" src="img/logo-sokol_lista.png" alt="logo_sokol">
+        <a href="../index.php"><img class="logo_form" src="img/logo-sokol_lista.png" alt="logo_sokol"></a>
             <h1> T. J. Sokol Doubravka </h1>
         </div>
 
