@@ -18,7 +18,7 @@
 
       <?php require_once("header.php"); ?>
 
-          <!-- -------------------------------------------------------------------------------------------------------------------- -->
+          <! --------------------------------------------------------------------------------------------------------------- --!>
 
           <section>
               <div class="velka_fotka">
@@ -45,44 +45,9 @@
 
                        require_once("in/pripojeni_db.php"); //pripojeni databaze
 
+                       require_once("in/functions.php");
 
-                       $sql = "SELECT nazev, upoutavka, kategorie, reg_date FROM aktuality ORDER BY id DESC LIMIT 4";
-                        $result = $conn->query($sql);
-
-                        if ($result->num_rows > 0) {
-                            // output data of each row
-
-
-
-                            while($row = $result->fetch_assoc()) {
-
-                                $nazev = $row["nazev"];
-                                $upoutavka = $row["upoutavka"];
-                                $kategorie = $row["kategorie"];
-                                $datum_cas = $row["reg_date"];
-
-                                echo "<a href='#' class='aktualita_article'>";
-
-                                echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
-
-                                echo  $upoutavka;
-
-                                echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum_cas . "</span>";
-
-                                echo "</a>";
-
-
-
-                                 }
-
-                            echo "</table>";
-
-
-
-                        } else {
-                            echo "Není tady žádná aktualita :(";
-                        }
-                        $conn->close();
+                       select_index($conn);
 
                       ?>
                     </div>

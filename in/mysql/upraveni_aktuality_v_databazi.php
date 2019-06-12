@@ -18,24 +18,18 @@
     $id_aktuality = $_POST["id_aktuality"];
 
 
+     $sql = "UPDATE aktuality SET nazev='$nazev_edit', kategorie='$kategorie_edit', upoutavka='$upoutavka_edit', obsah='$obsah_edit'  WHERE id=$id_aktuality";
 
+     if (mysqli_query($conn, $sql)) {
+         echo "Record updated successfully";
+         echo "<a href='../home.php'> Zpět! </a>";
+     } else {
+         echo "Error updating record: " . $conn->error;
+     }
 
-
-    $sql = "UPDATE aktuality SET nazev='$nazev_edit', kategorie='$kategorie_edit', upoutavka='$upoutavka_edit', obsah='$obsah_edit'  WHERE id=$id_aktuality";
-
- if ($conn->query($sql) === TRUE) {
-     echo "Record updated successfully";
-     echo "<a href='../home.php'> Zpět! </a>";
- } else {
-     echo "Error updating record: " . $conn->error;
- }
-
- $conn->close();
+     $conn->close();
 
  ?>
-
-<a href="../home.php">Zpět</a>
-
 
 </body>
 </html>

@@ -26,54 +26,12 @@
 
         <?php
 
-        include "functions.php";
+        require_once("functions.php");
 
         require_once("pripojeni_db.php"); //pripojeni databaze
 
+        select_all_records($conn);
 
-
-
-             $sql = "SELECT id, nazev, reg_date FROM aktuality";
-              $result = $conn->query($sql);
-
-              if ($result->num_rows > 0) {
-                  // output data of each row
-
-                  echo "<table>";
-                  echo "<tr>";
-                  echo "<th> ID </th>";
-                  echo "<th> Datum </th>";
-                  echo "<th style='min-width: 500px;'> Název </th>";
-                  echo "<th> Odstranit/Upravit </th>";
-                  echo "</tr>";
-
-                  while($row = $result->fetch_assoc()) {
-
-                      $id = $row["id"];
-                      $datum = $row["reg_date"];
-                      $nazev = $row["nazev"];
-
-                      echo "<tr>";
-
-                      echo "<td>" . $id . "<td>" . $datum . "<td>" . $nazev;
-
-                      echo "<td>";
-                      echo "<a href='mysql/odebrani_aktuality.php?odstranit=$id'>Odstranit</a>";  // odstraneni
-                      echo "/";
-                      echo "<a href='upraveni_aktuality.php?upravit=$id'>Upravit</a>";   //upraveni
-
-
-                      echo "<tr>";
-
-                       }
-
-                  echo "</table>";
-
-
-              } else {
-                  echo "Není tady žádná aktualita :(";
-              }
-              $conn->close();
         ?>
 
 

@@ -12,30 +12,10 @@
 
     require_once("../pripojeni_db.php"); //pripojeni databaze
 
-
-
-
         $id_aktuality = $_GET["odstranit"];
 
-        echo $id_aktuality;
-
-
-
         $sql = "DELETE FROM aktuality WHERE id=$id_aktuality";
-
-        if ($conn->query($sql) === TRUE) {
-          echo "Aktualita ůspěšně odstraněna";
-        } else {
-          echo "Chyba: " . $conn->error;
-    }
-
-
-
-
-
-
-
-
+        mysqli_query($conn, $sql);
 
 ?>
 

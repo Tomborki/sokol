@@ -16,27 +16,11 @@
     $obsah_form = $_POST["obsah"];
 
 
-
-
-
    // prepare and bind
-    $stmt = $conn->prepare("INSERT INTO aktuality (nazev, kategorie, upoutavka, obsah) VALUES (?, ?, ?, ?)");
-    $stmt->bind_param("ssss", $nazev, $kategorie, $upoutavka, $obsah);
-
-    // set parameters and execute
-    $nazev = $nazev_form;
-    $kategorie = $kategorie_form;
-    $upoutavka = $upoutavka_form;
-    $obsah = $obsah_form;
-
-    $stmt->execute();
-
-
-
+    $sql = "INSERT INTO aktuality (nazev, kategorie, upoutavka, obsah) VALUES ('$nazev_form', '$kategorie_form', '$upoutavka_form', '$obsah_form')";
+    mysqli_query($conn, $sql);
     echo "New records created successfully";
 
-    $stmt->close();
-    $conn->close();
 ?>
 
 <a href="../home.php">Zpět</a>
