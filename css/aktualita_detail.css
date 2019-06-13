@@ -1,0 +1,91 @@
+
+
+.aktualita_detail {
+
+  max-width: 1200px;
+  border-left: 5px solid red;
+  margin: auto;
+  padding-left: 28px;
+
+}
+
+.aktualita_detail h3 {
+
+  font-family: 'Signika', sans-serif;
+  font-size: 35px;
+  border-bottom: 3px solid black;
+  margin-bottom: -8px;
+
+}
+
+.aktualita_h2 {
+
+  font-family: 'Signika', sans-serif;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.aktualita_detail p {
+
+  font-family: 'Signika', sans-serif;
+
+}
+
+.aktualita_section {
+
+  background-color: #f2f2f2;
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+  margin-top: -40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 30px;
+
+}
+
+.aktualita_aktuality {
+
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.aktualita_aktuality div {
+
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border-top: 3px solid red;
+  margin-top: 20px;
+
+}
+
+.aktualita_aktuality_content {
+
+  color: #565656;
+  display: block;
+
+}
+
+
+.aktualita_aktuality_small_info {
+
+  text-align: center;
+
+}
+
+.aktualita_aktuality h4 {
+
+  font-family: 'Signika', sans-serif;
+  font-size: 25px;
+  text-align: center;
+
+}

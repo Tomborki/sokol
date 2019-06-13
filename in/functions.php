@@ -52,29 +52,28 @@
 
   function select_index($conn){
 
-    $sql = "SELECT nazev, upoutavka, kategorie FROM aktuality ORDER BY id DESC LIMIT 4";
+    $sql = "SELECT id, nazev, upoutavka, kategorie, time FROM aktuality ORDER BY id DESC LIMIT 4";
     $result = mysqli_query($conn, $sql);
 
        while($row = mysqli_fetch_assoc($result)) {
 
-           $nazev = $row["nazev"];
-           $upoutavka = $row["upoutavka"];
-           $kategorie = $row["kategorie"];
+         $id_aktuality = $row["id"];
+         $nazev = $row["nazev"];
+         $upoutavka = $row["upoutavka"];
+         $kategorie = $row["kategorie"];
+         $datum = $row["time"];
 
-           echo "<a href='#' class='aktualita_article'>";
+           echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
 
            echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
 
            echo  $upoutavka . "<br>";
 
-           echo "<span class='aktualita_small_info'>" . $kategorie . "</span>";
+           echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span>";
 
            echo "</a>";
 
             }
-
-       echo "</table>";
-
 
 
    }
@@ -83,9 +82,9 @@
    // ----------------------------------------------------------------------------------------------
 
 
-   function select_all_records($conn){
+   function select_all_records_in($conn){
 
-     $sql = "SELECT id, nazev FROM aktuality";
+     $sql = "SELECT id, nazev, time FROM aktuality ORDER BY id DESC ";
      $result = mysqli_query($conn, $sql);
 
           echo "<table>";
@@ -100,10 +99,11 @@
 
               $id = $row["id"];
               $nazev = $row["nazev"];
+              $time = $row["time"];
 
               echo "<tr>";
 
-              echo "<td>" . $id . "<td>" . "xd" . "<td>" . $nazev;
+              echo "<td>" . $id . "<td>" . $time . "<td>" . $nazev;
 
               echo "<td>";
               echo "<a href='mysql/odebrani_aktuality.php?odstranit=$id'>Odstranit</a>";  // odstraneni
@@ -119,6 +119,56 @@
 
 
     }
+
+    // ----------------------------------------------------------------------------------------------
+
+
+    function vypis_aktuality_stranka($conn, $id_aktuality){
+
+      $sql = "SELECT nazev, kategorie, obsah, time FROM aktuality WHERE id='$id_aktuality'";
+      $result = mysqli_query($conn, $sql);
+
+           while($row = mysqli_fetch_assoc($result)) {
+
+               $nazev = $row["nazev"];
+               $kategorie = $row["kategorie"];
+               $obsah = $row["obsah"];
+               $time = $row["time"];
+
+               echo "<h3>" . $nazev ."</h3>";
+               echo "<p><i>Kategorie: " . $kategorie ."</i></p>";
+               echo "<span id='aktualita_obsah'>" . $obsah ."</span>";
+               echo "<p><i>Datum vložení: " . $time ."</i></p>";
+
+     }
+
+}
+
+// ----------------------------------------------------------------------------------------------
+
+  function select_aktuality($conn){
+
+    $sql = "SELECT id, nazev, kategorie, time FROM aktuality ORDER BY id DESC LIMIT 4";
+    $result = mysqli_query($conn, $sql);
+
+       while($row = mysqli_fetch_assoc($result)) {
+
+         $id_aktuality = $row["id"];
+         $nazev = $row["nazev"];
+         $kategorie = $row["kategorie"];
+         $datum = $row["time"];
+
+           echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_aktuality_content'>";
+
+           echo "<h3 class='aktualita_nadpis' style='font-size: 18px'>"  . $nazev .  "</h3>";
+
+           echo "<span class='aktualita_aktuality_small_info'>" . $kategorie . " | " . $datum ."</span>";
+
+           echo "</a>";
+
+            }
+
+   }
 
 
 

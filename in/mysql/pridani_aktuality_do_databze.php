@@ -14,10 +14,11 @@
     $kategorie_form = $_POST["kategorie"];
     $upoutavka_form = $_POST["upoutavka"];
     $obsah_form = $_POST["obsah"];
+    $datum = date("m.d.Y");
 
 
    // prepare and bind
-    $sql = "INSERT INTO aktuality (nazev, kategorie, upoutavka, obsah) VALUES ('$nazev_form', '$kategorie_form', '$upoutavka_form', '$obsah_form')";
+    $sql = "INSERT INTO aktuality (nazev, kategorie, upoutavka, obsah, time) VALUES ('$nazev_form', '$kategorie_form', '$upoutavka_form', '$obsah_form', '$datum')";
     mysqli_query($conn, $sql);
     echo "New records created successfully";
 

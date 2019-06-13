@@ -30,7 +30,7 @@
 
         require_once("pripojeni_db.php"); //pripojeni databaze
 
-        select_all_records($conn);
+        select_all_records_in($conn);
 
         ?>
 

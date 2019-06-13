@@ -50,3 +50,19 @@ form {
     background-color: #ff6666;
 
 }
+
+#cke_upoutavka {
+
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+
+}
+
+#cke_obsah {
+
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+
+}
