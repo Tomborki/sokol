@@ -18,7 +18,7 @@
               <div id="wrap">
                 <a href="pridat_aktualitu.php" class="menu">Přidat aktualitu</a>
                 <a href="#" class="menu">Přidat fotky</a>
-                <a href="#" class="menu">Přidat akci</a>
+                <a href="pridat_akci.php" class="menu">Přidat akci</a>
               </div>
         </nav>
 
@@ -30,7 +30,13 @@
 
         require_once("pripojeni_db.php"); //pripojeni databaze
 
-        select_all_records_in($conn);
+        select_all_records_in($conn); ?>
+
+        <h2> Přidané akce </h2>
+
+        <?php
+
+        select_all_records_in_akce($conn);
 
         ?>
 

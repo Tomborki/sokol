@@ -170,6 +170,46 @@
 
    }
 
+// ----------------------------------------------------------------------------------------------
+
+   function select_all_records_in_akce($conn){
+
+     $sql = "SELECT id, nazev, datum FROM akce ORDER BY id DESC ";
+     $result = mysqli_query($conn, $sql);
+
+          echo "<table>";
+          echo "<tr>";
+          echo "<th> ID </th>";
+          echo "<th> Datum </th>";
+          echo "<th style='min-width: 500px;'> Název </th>";
+          echo "<th> Odstranit/Upravit </th>";
+          echo "</tr>";
+
+          while($row = mysqli_fetch_assoc($result)) {
+
+              $id = $row["id"];
+              $nazev = $row["nazev"];
+              $time = $row["datum"];
+
+              echo "<tr>";
+
+              echo "<td>" . $id . "<td>" . $time . "<td>" . $nazev;
+
+              echo "<td>";
+              echo "<a href='mysql/odebrani_akce.php?odstranit=$id'>Odstranit</a>";  // odstraneni
+              echo "/";
+              echo "<a href='upraveni_akce.php?upravit=$id'>Upravit</a>";   //upraveni
+
+
+              echo "<tr>";
+
+               }
+
+          echo "</table>";
+
+
+    }
+
 
 
 
