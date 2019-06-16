@@ -26,7 +26,7 @@
         <h2 class="nadpis_form_h2">Přidání aktuality</h2>
 
 
-        <form action="mysql/pridani_aktuality_do_databze.php" method="post">
+        <form action="mysql/pridani_aktuality_do_databze.php" method="post"  enctype="multipart/form-data">
 
 
             <h3>Název aktuality</h3>
@@ -49,7 +49,8 @@
             <textarea name="obsah" class="ckeditor">
                 This is my textarea to be replaced with CKEditor.
             </textarea><br>
-
+            <h3>Obrázek</h3>
+            <input type="file" multiple="multiple" name="image[]">
             <input class="input_submit" type="submit" value="Přidat">
 
 

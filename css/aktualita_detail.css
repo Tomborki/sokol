@@ -6,6 +6,7 @@
   border-left: 5px solid red;
   margin: auto;
   padding-left: 28px;
+  padding-right: 28px;
 
 }
 
@@ -88,5 +89,12 @@
   font-size: 25px;
   text-align: center;
   color: #4f4f4f;
+
+}
+
+.obr_aktuality_detail {
+
+  display: table;
+  margin: auto;
 
 }

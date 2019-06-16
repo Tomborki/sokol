@@ -125,7 +125,7 @@
 
     function vypis_aktuality_stranka($conn, $id_aktuality){
 
-      $sql = "SELECT nazev, kategorie, obsah, time FROM aktuality WHERE id='$id_aktuality'";
+      $sql = "SELECT nazev, kategorie, obsah, obr0, obr1, obr2, time FROM aktuality WHERE id='$id_aktuality'";
       $result = mysqli_query($conn, $sql);
 
            while($row = mysqli_fetch_assoc($result)) {
@@ -134,11 +134,28 @@
                $kategorie = $row["kategorie"];
                $obsah = $row["obsah"];
                $time = $row["time"];
+               $obr0 = $row["obr0"];
+               $obr1 = $row["obr1"];
+               $obr2 = $row["obr2"];
 
                echo "<h3>" . $nazev ."</h3>";
                echo "<p><i>Kategorie: " . $kategorie ."</i></p>";
                echo "<span id='aktualita_obsah'>" . $obsah ."</span>";
                echo "<p><i>Datum vložení: " . $time ."</i></p>";
+               echo '<div class="obr_aktuality_detail">';
+               if ($obr0 != ""){
+                  echo '<a href="in/img/aktuality/' . $obr0 . '" data-lightbox="' . $nazev . '" data-title="' . $nazev . '"><img class="img_detail img_klikatelne" src="in/img/aktuality/thum/' . $obr0 . '"></a>';
+               }
+
+               if ($obr1 != ""){
+                  echo '<a href="in/img/aktuality/' . $obr1 . '" data-lightbox="' . $nazev . '" data-title="' . $nazev . '"><img class="img_detail img_klikatelne" src="in/img/aktuality/thum/' . $obr1 . '"></a>';
+               }
+
+               if ($obr2 != ""){
+                  echo '<a href="in/img/aktuality/' . $obr2 . '" data-lightbox="' . $nazev . '" data-title="' . $nazev . '"><img class="img_detail img_klikatelne" src="in/img/aktuality/thum/' . $obr2 . '"></a>';
+               }
+               echo '</div>';
+
 
      }
 
