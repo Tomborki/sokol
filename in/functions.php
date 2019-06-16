@@ -52,7 +52,7 @@
 
   function select_index($conn){
 
-    $sql = "SELECT id, nazev, upoutavka, kategorie, time FROM aktuality ORDER BY id DESC LIMIT 4";
+    $sql = "SELECT id, nazev, upoutavka, kategorie, time, obr0 FROM aktuality ORDER BY id DESC LIMIT 4";
     $result = mysqli_query($conn, $sql);
 
        while($row = mysqli_fetch_assoc($result)) {
@@ -62,12 +62,17 @@
          $upoutavka = $row["upoutavka"];
          $kategorie = $row["kategorie"];
          $datum = $row["time"];
+         $obr0 = $row["obr0"];
 
            echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
 
+           if($obr0 != ""){
+              echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
+           }
+
            echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
 
-           echo  $upoutavka . "<br>";
+           echo $upoutavka;
 
            echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span>";
 
