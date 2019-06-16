@@ -35,7 +35,7 @@
             <select class="input_kategorie" name="kategorie">
                   <option value="sokol">Sokol</option>
                   <option value="badminton">Badminton</option>
-                  <option value="sokolska vsesrannost">Sokolská všestrannost</option>
+                  <option value="sokolská všesrannost">Sokolská všestrannost</option>
                   <option value="volejbal">Volejbal</option>
             </select><br>
 
