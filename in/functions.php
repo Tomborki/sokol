@@ -111,7 +111,7 @@
               echo "<td>" . $id . "<td>" . $time . "<td>" . $nazev;
 
               echo "<td>";
-              echo "<a href='mysql/odebrani_aktuality.php?odstranit=$id'>Odstranit</a>";  // odstraneni
+              echo "<a onclick='return confirm(\"Opravdu chceš odstranit aktualitu?\")' href='mysql/odebrani_aktuality.php?odstranit=$id'>Odstranit</a>";  // odstraneni
               echo "/";
               echo "<a href='upraveni_aktuality.php?upravit=$id'>Upravit</a>";   //upraveni
 
@@ -121,6 +121,19 @@
                }
 
           echo "</table>";
+
+          echo '<script>
+                function myFunction() {
+                  var txt;
+                  var r = confirm("Opravdu chceš odstranit aktualitu?");
+                  if (r == true) {
+
+                  } else {
+                    window.location = "home.php";
+                  }
+
+                }
+                </script>';
 
 
     }
@@ -218,7 +231,7 @@
               echo "<td>" . $id . "<td>" . $time . "<td>" . $nazev;
 
               echo "<td>";
-              echo "<a href='mysql/odebrani_akce.php?odstranit=$id'>Odstranit</a>";  // odstraneni
+              echo "<a onclick='return confirm(\"Opravdu chceš odstranit akci?\")' href='mysql/odebrani_akce.php?odstranit=$id'>Odstranit</a>";  // odstraneni
               echo "/";
               echo "<a href='upraveni_akce.php?upravit=$id'>Upravit</a>";   //upraveni
 
