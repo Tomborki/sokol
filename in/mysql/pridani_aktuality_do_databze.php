@@ -14,7 +14,7 @@
     $kategorie_form = $_POST["kategorie"];
     $upoutavka_form = $_POST["upoutavka"];
     $obsah_form = $_POST["obsah"];
-    $datum = date("m.d.Y");
+    $datum = date("d.m.Y");
     $obr = $_FILES['image']['name'];
     $pocet_obr = count($_FILES['image']['name']);
     error_reporting(0);
@@ -94,9 +94,11 @@
 
         function imageResize($imageResourceId,$width,$height) {
 
+          echo $width;
+          echo $height;
 
-            $targetWidth =250;
-            $targetHeight =200;
+            $targetWidth = 250;
+            $targetHeight = 200;
 
 
             $targetLayer=imagecreatetruecolor($targetWidth,$targetHeight);

@@ -51,7 +51,7 @@
 
                       ?>
                     </div>
-                    <a class="info_aktualita" href="#"> Zobrazit další aktuality </a>
+                    <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
             </div>
 
             <div class="map_container">
