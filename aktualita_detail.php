@@ -34,11 +34,12 @@
       <section class="aktualita_aktuality">
         <div>
           <h4>Nejbližší akce</h4>
-          <?php select_aktuality($conn) ?>
+          <?php select_akce($conn) ?>
         </div>
         <div>
           <h4>Nejnovější aktuality</h4>
           <?php select_aktuality($conn) ?>
+          <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
         </div>
 
       </section>

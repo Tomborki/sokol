@@ -209,7 +209,7 @@
 
    function select_all_records_in_akce($conn){
 
-     $sql = "SELECT id, nazev, datum FROM akce ORDER BY id DESC ";
+     $sql = "SELECT id, nazev, datum FROM akce ORDER BY datum DESC ";
      $result = mysqli_query($conn, $sql);
 
           echo "<table>";
@@ -245,7 +245,7 @@
 
     }
 
-
+    // ----------------------------------------------------------------------------------------------
 
     function all_aktuality($conn){
 
@@ -279,6 +279,39 @@
 
 
     }
+
+    // ----------------------------------------------------------------------------------------------
+
+      function select_akce($conn){
+
+        $dneska = date("Y-m-d");
+        $aktualniRok = date("Y");
+        $aktualniDen = date("d");
+        $dneskaMesic = explode("-", date("Y-m-d"));
+        $mesicPlusJeden = $dneskaMesic[1] + 1;
+
+        $datumOMesic = $aktualniRok . "-0" . $mesicPlusJeden . "-" . $aktualniDen;
+
+        $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' AND datum <= '$datumOMesic' ORDER BY datum";
+        $result = mysqli_query($conn, $sql);
+
+           while($row = mysqli_fetch_assoc($result)) {
+
+             $id_akce = $row["id"];
+             $nazev = $row["nazev"];
+             $datum = explode("-", $row["datum"]);  // 0 = rok , 1 = mesic , 2 = den
+
+               echo "<a href='#' class='akce_article'>";
+
+               echo '<div id="akce_datum">' . $datum[2] . '. ' . $datum[1] . '.</div>';
+
+               echo "<h3 class='akce_nadpis'>"  . $nazev .  "</h3>";
+
+               echo "</a>";
+
+           }
+
+       }
 
 
 

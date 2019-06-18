@@ -27,6 +27,20 @@
 
 }
 
+.person_flex a {
+
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+
+}
+
+.person_flex a:hover {
+
+  color: red;
+
+}
+
 .person_flex:hover {
 
     border: 2px solid red;
@@ -98,6 +112,20 @@
   border-radius: 30px;
   border: 2px solid transparent;
   transition: all .35s ease-out;
+
+}
+
+.person_odd_flex a {
+
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+
+}
+
+.person_odd_flex a:hover {
+
+  color: red;
 
 }
 

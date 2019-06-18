@@ -1019,3 +1019,33 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
       -webkit-align-items: center;
       align-items: center;
     }
+
+
+#akce_datum {
+
+  border: none;
+  float: left;
+  display: table;
+  width: 54px;
+  margin-top: -7px;
+  margin-right: 16px;
+  background-color: red;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+
+}
+
+.akce_article {
+
+  display: block;
+  font-family: 'Signika', sans-serif;
+  color: #686868;
+
+}
+
+.akce_nadpis {
+
+  margin: 28px 0;
+
+}
