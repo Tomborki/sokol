@@ -280,7 +280,7 @@
 
     }
 
-    // ----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------
 
       function select_akce($conn){
 
@@ -290,7 +290,10 @@
         $dneskaMesic = explode("-", date("Y-m-d"));
         $mesicPlusJeden = $dneskaMesic[1] + 1;
 
-        $datumOMesic = $aktualniRok . "-0" . $mesicPlusJeden . "-" . $aktualniDen;
+        if($dneskaMesic[1] == "01" OR "02" OR "03" OR "04" OR "05" OR "06" OR "07" OR "08" OR "09"){
+          $datumOMesic = $aktualniRok . "-0" . $mesicPlusJeden . "-" . $aktualniDen;
+        } else {$datumOMesic = $aktualniRok . "-" . $mesicPlusJeden . "-" . $aktualniDen;}
+
 
         $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' AND datum <= '$datumOMesic' ORDER BY datum";
         $result = mysqli_query($conn, $sql);
@@ -312,6 +315,81 @@
            }
 
        }
+
+// ----------------------------------------------------------------------------------------------
+
+       function select_aktuality_podle_kategorie($conn, $kategorie){
+
+
+           $sql = "SELECT id, nazev, upoutavka, kategorie, time, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC";
+           $result = mysqli_query($conn, $sql);
+
+              while($row = mysqli_fetch_assoc($result)) {
+
+                $id_aktuality = $row["id"];
+                $nazev = $row["nazev"];
+                $upoutavka = $row["upoutavka"];
+                $kategorie = $row["kategorie"];
+                $datum = $row["time"];
+                $obr0 = $row["obr0"];
+
+                  echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+
+                  if($obr0 != ""){
+                     echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
+                  }
+
+                  echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
+
+                  echo $upoutavka;
+
+                  echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span>";
+
+                  echo "</a>";
+
+                   }
+
+      }
+
+// ----------------------------------------------------------------------------------------------
+
+  function select_aktuality_podle_kategorie_a_data($conn, $kategorie, $od, $do){
+
+      if($kategorie == "all"){
+
+        $sql = "SELECT id, nazev, upoutavka, kategorie, time, obr0 FROM aktuality WHERE time >= '$od' AND time <= '$do' ORDER BY id DESC";
+        $result = mysqli_query($conn, $sql);
+
+           while($row = mysqli_fetch_assoc($result)) {
+
+             $id_aktuality = $row["id"];
+             $nazev = $row["nazev"];
+             $upoutavka = $row["upoutavka"];
+             $kategorie = $row["kategorie"];
+             $datum = $row["time"];
+             $obr0 = $row["obr0"];
+
+               echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+
+               if($obr0 != ""){
+                  echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
+               }
+
+               echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
+
+               echo $upoutavka;
+
+               echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span>";
+
+               echo "</a>";
+
+                }
+
+      }
+
+
+
+  }
 
 
 

@@ -203,6 +203,21 @@
 
           </div>
           </div>
+          <div class="aktuality_container">
+                   <h2 id="kde">Aktuality v kategorii SV</h2>
+                   <div class="flex_aktualita">
+                   <?php
+
+                     require_once("in/pripojeni_db.php"); //pripojeni databaze
+
+                     require_once("in/functions.php");
+
+                     select_aktuality_podle_kategorie($conn, "sokolská všesrannost");
+
+                    ?>
+                  </div>
+                  <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
+          </div>
 
 
 

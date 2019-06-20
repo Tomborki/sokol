@@ -18,7 +18,6 @@
 
     </head>
 
-
       <?php require_once("header.php");
 
       require_once("in/pripojeni_db.php");
@@ -26,10 +25,74 @@
 
       <div class="aktuality_container">
         <h2 id="kde">Všechny aktuality</h2>
+        <form class="form_filter" action="aktuality.php" method="post"  enctype="multipart/form-data">
+          <div class="inputs_aktuality">
+            <label for="kategorie">Kategorie: </label>
+            <select class="kategorie_vyber_aktualit" name="kategorie">
+                  <option value="vsechny">Všechny</option>
+                  <option value="sokol">Sokol</option>
+                  <option value="badminton">Badminton</option>
+                  <option value="sokolská všesrannost">Sokolská všestrannost</option>
+                  <option value="volejbal">Volejbal</option>
+            </select>
+            <label for="od">Časové období od: </label>
+            <input type="date" name="od" value="value=">
+            <label for="od">do: </label>
+            <input type="date" name="do" value="">
+            <input type="submit" name="submit" value="Filtrovat">
+          </div>
         <div class="flex_aktualita">
+
       <?php
 
-      all_aktuality($conn);
+        if(isset($_POST['kategorie'])){
+
+            $kategorie = $_POST['kategorie'];
+            $od = $_POST['od'];
+            $do = $_POST['do'];
+
+            if($kategorie == "vsechny"){
+
+                  if(($od == "") AND ($do == "")){
+
+                    all_aktuality($conn);
+
+                  } else {
+
+                    if($od != ""){
+                      $od = explode("-", $_POST['od']); // 0= rok, 1= mesic, 2=den
+                      $od_prevedene = $od[2] . "." . $od[1] . "." . $od[0];
+
+                      if($do != ""){
+                        $do = explode("-", $_POST['do']); // 0= rok, 1= mesic, 2=den
+                        $do_prevedene = $do[2] . "." . $do[1] . "." . $do[0];
+                        select_aktuality_podle_kategorie_a_data($conn, "all", $od_prevedene, $do_prevedene);
+                      } else {
+                        select_aktuality_podle_kategorie_a_data($conn, "all", $od_prevedene, date("d.m.Y"));
+                        }
+
+                    }
+
+
+
+
+
+
+
+                  }
+
+
+
+            } else {select_aktuality_podle_kategorie($conn, $kategorie);}
+
+
+
+        } else {all_aktuality($conn);}
+
+
+
+
+
 
        ?>
        </div>

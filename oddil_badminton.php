@@ -64,6 +64,24 @@
                     </article>
                 </section>
             </div>
+
+            <div class="aktuality_container">
+                     <h2 id="kde">Aktuality v kategorii badminton</h2>
+                     <div class="flex_aktualita">
+                     <?php
+
+                       require_once("in/pripojeni_db.php"); //pripojeni databaze
+
+                       require_once("in/functions.php");
+
+                       select_aktuality_podle_kategorie($conn, "badminton");
+
+                      ?>
+                    </div>
+                    <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
+            </div>
+
+
             <div class="osobnosti_container">
                <h2 class="like"> Osobnosti </h2>
                   <section class="rodic_social_osob">

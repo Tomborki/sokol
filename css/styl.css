@@ -1049,3 +1049,27 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   margin: 28px 0;
 
 }
+
+.inputs_aktuality {
+
+  text-align: center;
+  padding: 14px 0px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+
+}
+
+.inputs_aktuality input, select {
+
+  width: 160px;
+  height: 33px;
+  font-size: 15px;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.form_filter {
+
+  font-family: 'Signika', sans-serif;
+
+}
