@@ -61,14 +61,14 @@
 
                     if($od != ""){
                       $od = explode("-", $_POST['od']); // 0= rok, 1= mesic, 2=den
-                      $od_prevedene = $od[2] . "." . $od[1] . "." . $od[0];
+                      $od_prevedene = $od[0] . "-" . $od[1] . "-" . $od[2];
 
                       if($do != ""){
                         $do = explode("-", $_POST['do']); // 0= rok, 1= mesic, 2=den
-                        $do_prevedene = $do[2] . "." . $do[1] . "." . $do[0];
+                        $do_prevedene = $do[0] . "-" . $do[1] . "-" . $do[2];
                         select_aktuality_podle_kategorie_a_data($conn, "all", $od_prevedene, $do_prevedene);
                       } else {
-                        select_aktuality_podle_kategorie_a_data($conn, "all", $od_prevedene, date("d.m.Y"));
+                        select_aktuality_podle_kategorie_a_data($conn, "all", $od_prevedene, date("Y-m-d"));
                         }
 
                     }

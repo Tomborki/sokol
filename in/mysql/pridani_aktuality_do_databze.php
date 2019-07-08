@@ -14,7 +14,7 @@
     $kategorie_form = $_POST["kategorie"];
     $upoutavka_form = $_POST["upoutavka"];
     $obsah_form = $_POST["obsah"];
-    $datum = date("d.m.Y");
+    $datum = date("Y-m-d");
     $obr = $_FILES['image']['name'];
     $pocet_obr = count($_FILES['image']['name']);
     error_reporting(0);

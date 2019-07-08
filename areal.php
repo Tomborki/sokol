@@ -38,8 +38,8 @@
           <p>Možnost využití i pro beach badminton či jiné sporty</p></p>
           <p>Vhodné pro posilování (kondiční tréninky)</p>
           <div class="fotka_areal">
-              <a href="img/areal/original/sokol_10.JPG" data-lightbox="beach" data-title="Beachvolejbalové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_10.JPG"></a>
-              <a href="img/areal/original/sokol_20.JPG" data-lightbox="beach" data-title="Beachvolejbalové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_20.JPG"></a>
+              <a href="img/areal/original/sokol_54.JPG" data-lightbox="beach" data-title="Beachvolejbalové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_54.JPG"></a>
+              <a href="img/areal/original/sokol_67.JPG" data-lightbox="beach" data-title="Beachvolejbalové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_67.JPG"></a>
           </div>
         </li>
         <li>
@@ -47,8 +47,9 @@
           <p>3 antukové kurty</p>
           <p>Možnost nohejbalu a volejbalu</p></p>
           <div class="fotka_areal">
-              <a href="img/areal/original/sokol_7.JPG" data-lightbox="antuka" data-title="Antukové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_7.JPG"></a>
-              <a href="img/areal/original/sokol_8.JPG" data-lightbox="antuka" data-title="Antukové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_8.JPG"></a>
+              <a href="img/areal/original/sokol_64.JPG" data-lightbox="antuka" data-title="Antukové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_64.JPG"></a>
+              <a href="img/areal/original/sokol_65.JPG" data-lightbox="antuka" data-title="Antukové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_65.JPG"></a>
+              <a href="img/areal/original/sokol_66.JPG" data-lightbox="antuka" data-title="Antukové kurty"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_66.JPG"></a>
           </div>
         </li>
         <li>
@@ -69,8 +70,9 @@
           <p>Určena pro menší skupinky cvičenců.</p></p>
           <p>Hodí se pro jógu, cvičení s nejmenšími dětmi, gymnastiku.</p>
           <div class="fotka_areal">
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="litt" data-title="Malá tělocvična"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="litt" data-title="Malá tělocvična"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
+            <a href="img/areal/original/sokol_45.JPG" data-lightbox="litt" data-title="Malá tělocvična"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_45.JPG"></a>
+            <a href="img/areal/original/sokol_46.JPG" data-lightbox="litt" data-title="Malá tělocvična"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_46.JPG"></a>
+            <a href="img/areal/original/sokol_50.JPG" data-lightbox="litt" data-title="Malá tělocvična"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_50.JPG"></a>
           </div>
           <span>Zájemci mohou své požadavky zasílat na e-mailovou adresu miladanovakova@centrum.cz, možné je samozřejmě i osobní jednání v kanceláři tělocvičné jednoty, Hřbitovní 24, I.patro (po předchozí domluvě na tel. č. 602169692).</span>
         </li>
@@ -99,9 +101,9 @@
           <p>ohniště</p>
           <p>2 posilovací stroje</p>
           <div class="fotka_areal">
-              <a href="img/areal/original/sokol_15.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_15.JPG"></a>
-              <a href="img/areal/original/sokol_16.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_16.JPG"></a>
-              <a href="img/areal/original/sokol_18.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_18.JPG"></a>
+              <a href="img/areal/original/sokol_57.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_57.JPG"></a>
+              <a href="img/areal/original/sokol_59.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_59.JPG"></a>
+              <a href="img/areal/original/sokol_62.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_62.JPG"></a>
           </div>
         </li>
         <li>
@@ -116,8 +118,8 @@
           <p>1 pingpongový stůl</p>
           <p>Sedačky pro odpočinek</p>
           <div class="fotka_areal">
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="stt" data-title="Místnost pro stolní tenis"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="stt" data-title="Místnost pro stolní tenis"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
+            <a href="img/areal/original/sokol_52.JPG" data-lightbox="stt" data-title="Místnost pro stolní tenis"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_52.JPG"></a>
+            <a href="img/areal/original/sokol_53.JPG" data-lightbox="stt" data-title="Místnost pro stolní tenis"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_53.JPG"></a>
           </div>
         </li>
         <li>

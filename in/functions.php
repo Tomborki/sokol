@@ -61,7 +61,8 @@
          $nazev = $row["nazev"];
          $upoutavka = $row["upoutavka"];
          $kategorie = $row["kategorie"];
-         $datum = $row["time"];
+         $prevod_datum = explode("-", $row["time"]);
+         $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
          $obr0 = $row["obr0"];
 
            echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
@@ -151,7 +152,8 @@
                $nazev = $row["nazev"];
                $kategorie = $row["kategorie"];
                $obsah = $row["obsah"];
-               $time = $row["time"];
+               $prevod_datum = explode("-", $row["time"]);
+               $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
                $obr0 = $row["obr0"];
                $obr1 = $row["obr1"];
                $obr2 = $row["obr2"];
@@ -159,7 +161,7 @@
                echo "<h3>" . $nazev ."</h3>";
                echo "<p><i>Kategorie: " . $kategorie ."</i></p>";
                echo "<span id='aktualita_obsah'>" . $obsah ."</span>";
-               echo "<p><i>Datum vložení: " . $time ."</i></p>";
+               echo "<p><i>Datum vložení: " . $datum ."</i></p>";
                echo '<div class="obr_aktuality_detail">';
                if ($obr0 != ""){
                   echo '<a href="in/img/aktuality/' . $obr0 . '" data-lightbox="' . $nazev . '" data-title="' . $nazev . '"><img class="img_detail img_klikatelne" src="in/img/aktuality/thum/' . $obr0 . '"></a>';
@@ -258,7 +260,8 @@
            $nazev = $row["nazev"];
            $upoutavka = $row["upoutavka"];
            $kategorie = $row["kategorie"];
-           $datum = $row["time"];
+           $prevod_datum = explode("-", $row["time"]);
+           $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
            $obr0 = $row["obr0"];
 
              echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
@@ -366,7 +369,8 @@
              $nazev = $row["nazev"];
              $upoutavka = $row["upoutavka"];
              $kategorie = $row["kategorie"];
-             $datum = $row["time"];
+             $prevod_datum = explode("-", $row["time"]);
+             $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
              $obr0 = $row["obr0"];
 
                echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
