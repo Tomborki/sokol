@@ -313,6 +313,16 @@ h1 {
 
 }
 
+section {
+
+  background-image: url("../img/bg_sokol.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 600px;
+  background-position-x: -100px;
+
+}
+
 .flex_aktualita {
 
   display: flex;
@@ -1100,6 +1110,6 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
 
   display: inline-block;
   color: red;
-  
+
 
 }

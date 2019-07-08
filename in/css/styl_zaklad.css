@@ -5,8 +5,12 @@ font-family: 'Hammersmith One', sans-serif;
 */
 body {
 
-    margin: 0px;
-
+  margin: 0px;
+  background-image: url("../../img/bg_sokol.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: -129px;
+  
 }
 
 .login {

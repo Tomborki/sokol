@@ -10,7 +10,7 @@
     </head>
     <body class="login">
 
-   <img id="logo_login" src="../img/logo-sokol.png" alt="" width="75px">
+   <a href="../index.php"><img id="logo_login" src="../img/logo-sokol.png" alt="" width="75px"></a>
    <div class="formular_login">
 
      <h2 id="h2_login">Sokol admin</h2>
