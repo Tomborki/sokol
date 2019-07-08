@@ -31,6 +31,11 @@
 
             <h3>Název aktuality</h3>
             <input class="input_nazev" type="text" name="nazev"><br>
+            <h3>Důležitá aktualita?</h3>
+            <label for="radio">Ano</label>
+            <input type="radio" name="radio" value="ano">
+            <label for="radio">Ne</label>
+            <input type="radio" name="radio" checked value="ne">
             <h3>Kategorie</h3>
             <select class="input_kategorie" name="kategorie">
                   <option value="sokol">Sokol</option>
@@ -38,7 +43,6 @@
                   <option value="sokolská všesrannost">Sokolská všestrannost</option>
                   <option value="volejbal">Volejbal</option>
             </select><br>
-
 
             <h3>Upoutavka</h3>
             <textarea name="upoutavka" class="ckeditor">
@@ -50,7 +54,7 @@
                 This is my textarea to be replaced with CKEditor.
             </textarea><br>
             <h3>Obrázek</h3>
-            <input type="file" multiple="multiple" name="image[]">
+            <input type="file" multiple="multiple" name="image[]"><br>
             <input class="input_submit" type="submit" value="Přidat">
 
 

@@ -14,6 +14,7 @@
     $kategorie_form = $_POST["kategorie"];
     $upoutavka_form = $_POST["upoutavka"];
     $obsah_form = $_POST["obsah"];
+    $dulezite = $_POST["radio"];
     $datum = date("Y-m-d");
     $obr = $_FILES['image']['name'];
     $pocet_obr = count($_FILES['image']['name']);
@@ -22,7 +23,7 @@
 
 
 
-    $sql = "INSERT INTO aktuality (nazev, kategorie, upoutavka, obsah, time, obr0, obr1, obr2 ) VALUES ('$nazev_form', '$kategorie_form', '$upoutavka_form', '$obsah_form', '$datum', '$obr[0]', '$obr[1]','$obr[2]')";
+    $sql = "INSERT INTO aktuality (nazev, dulezite, kategorie, upoutavka, obsah, time, obr0, obr1, obr2 ) VALUES ('$nazev_form', '$dulezite', '$kategorie_form', '$upoutavka_form', '$obsah_form', '$datum', '$obr[0]', '$obr[1]','$obr[2]')";
 
     if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";

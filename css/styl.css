@@ -1079,3 +1079,27 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   font-family: 'Signika', sans-serif;
 
 }
+
+#dulezite_img {
+
+  width: 36px;
+  position: relative;
+  top: 12px;
+  margin-right: 8px;
+
+}
+
+#dulezite_div {
+
+  display: table;
+  margin-top: 33px;
+
+}
+
+#dulezite_div p {
+
+  display: inline-block;
+  color: red;
+  
+
+}
