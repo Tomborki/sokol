@@ -8,21 +8,12 @@
         <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+    <body class="login">
 
-    <div class="liska_form">
+   <img id="logo_login" src="../img/logo-sokol.png" alt="" width="75px">
+   <div class="formular_login">
 
-    <img class="logo_form" src="img/logo-sokol_lista.png" alt="logo_sokol">
-
-    <h1> T. J. Sokol Doubravka </h1>
-
-    </div>
-
-
-
-  <h2 class="nadpis_form_h2">Redační systém webu</h2>
-
-   <div class="formular">
+     <h2 id="h2_login">Sokol admin</h2>
 
         <form method="post">
 
@@ -30,7 +21,7 @@
 
            <p class="p_form">Heslo<br> <input class="overeni_form" type="password" name="pass"> <br></p>
 
-           <input type="submit">
+           <input class="submit_login" type="submit">
 
         </form>
 
@@ -44,11 +35,12 @@
         if (isset($_POST["user"]) && isset($_POST["pass"])) {
 
           include "functions.php";
+          require_once("pripojeni_db.php");
 
-          $username = $_POST["user"];
-          $password = $_POST["pass"];
+          $jmeno = htmlspecialchars($_POST["user"]);
+          $heslo = htmlspecialchars($_POST["pass"]);
 
-          overeni($username, $password);
+          overeni($jmeno, $heslo, $conn);
 
         }
 

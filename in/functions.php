@@ -2,31 +2,26 @@
 
 //-----------------------Overeni---------------------------------------------------------
 
-    function overeni ($username, $password){
+    function overeni ($jmeno_form, $heslo_form, $conn){
 
-        include "users.php";
+      $sql = "SELECT id, jmeno, heslo FROM uziv";
+      $result = mysqli_query($conn, $sql);
 
-        $pocet_uzivatelu = count($username_data);
+         while($row = mysqli_fetch_assoc($result)) {
 
+           $uzivatel = $row["jmeno"];
+           $heslo = $row["heslo"];
 
+           if (($uzivatel == $jmeno_form) && ($heslo == $heslo_form)){
 
-        for ($x = 0; $x < $pocet_uzivatelu; $x++){
+                   header("Location: home.php");
 
-            if ($username_data[$x] == $username){
+               }
+           }
 
-                if ($password_data[$x] == $password){
-
-                    header("Location: home.php");
-
-                }
-
-            }
-
+           echo "<p class='chyba_form'> Nesprávné heslo nebo uživatelské jméno! </p>";
         }
 
-        echo "<p class='chyba_form'> Nesprávné heslo nebo uživatelské jméno! </p>";
-
-    }
 
 //-----------------------Pripojeni DB---------------------------------------------------------
 
@@ -285,7 +280,7 @@
 
 // ----------------------------------------------------------------------------------------------
 
-      function select_akce($conn){
+      function select_akce_nejblizsi($conn){
 
         $dneska = date("Y-m-d");
         $aktualniRok = date("Y");
@@ -333,7 +328,8 @@
                 $nazev = $row["nazev"];
                 $upoutavka = $row["upoutavka"];
                 $kategorie = $row["kategorie"];
-                $datum = $row["time"];
+                $prevod_datum = explode("-", $row["time"]);
+                $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
                 $obr0 = $row["obr0"];
 
                   echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";

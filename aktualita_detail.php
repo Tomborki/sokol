@@ -34,7 +34,8 @@
       <section class="aktualita_aktuality">
         <div>
           <h4>Nejbližší akce</h4>
-          <?php select_akce($conn) ?>
+          <?php select_akce_nejblizsi($conn) ?>
+          <a class="info_aktualita" href="akce.php"> Zobrazit všechny akce </a>
         </div>
         <div>
           <h4>Nejnovější aktuality</h4>

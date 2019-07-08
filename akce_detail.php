@@ -18,24 +18,30 @@
 
     </head>
 
+
       <?php require_once("header.php");
 
       require_once("in/pripojeni_db.php");
       require_once("in/functions.php");?>
 
-      <div class="aktuality_container">
-        <h2 id="kde">Všechny akce</h2>
-        <h3>Nadcházející akce</h3>
 
-        <div class="flex_aktualita">
-
-      <?php
-
-      
-
-       ?>
-       </div>
+      <section class="aktualita_section">
+      <h2 class="aktualita_h2">Detail akce</h2>
+      <div class="aktualita_detail">
+          <?php vypis_aktuality_stranka($conn, $_GET["akce"]);  ?>
       </div>
+      </section>
+      <section class="aktualita_aktuality">
+        <div>
+          <h4>Nejbližší akce</h4>
+          <?php select_akce_nejblizsi($conn) ?>
+          <a class="info_aktualita" href="akce.php"> Zobrazit všechny akce </a>
+        </div>
+        <div>
+          <h4>Nejnovější aktuality</h4>
+          <?php select_aktuality($conn) ?>
+          <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
+        </div>
 
       </section>
 
