@@ -96,14 +96,15 @@
 
    function select_all_records_in($conn){
 
-     $sql = "SELECT id, nazev, time FROM aktuality ORDER BY id DESC ";
+     $sql = "SELECT id, nazev, videno, time FROM aktuality ORDER BY id DESC ";
      $result = mysqli_query($conn, $sql);
 
           echo "<table>";
           echo "<tr>";
           echo "<th> ID </th>";
           echo "<th> Datum </th>";
-          echo "<th style='min-width: 500px;'> Název </th>";
+          echo "<th> Název </th>";
+          echo "<th> Viděno </th>";
           echo "<th> Odstranit/Upravit </th>";
           echo "</tr>";
 
@@ -111,19 +112,21 @@
 
               $id = $row["id"];
               $nazev = $row["nazev"];
-              $time = $row["time"];
+              $time = explode("-", $row["time"]);
+              $datum_prevedeno = $time[2] . "." . $time[1] . "." . $time[0];
+              $videno = $row["videno"];
 
               echo "<tr>";
 
-              echo "<td>" . $id . "<td>" . $time . "<td>" . $nazev;
+              echo "<td style='border-left: 5px solid red; padding: 13px;'>" . $id . "<td>" . $datum_prevedeno . "<td>" . $nazev;
+              echo "<td>" . $videno . "x";
 
               echo "<td>";
-              echo "<a onclick='return confirm(\"Opravdu chceš odstranit aktualitu?\")' href='mysql/odebrani_aktuality.php?odstranit=$id'>Odstranit</a>";  // odstraneni
-              echo "/";
-              echo "<a href='upraveni_aktuality.php?upravit=$id'>Upravit</a>";   //upraveni
+              echo "<a onclick='return confirm(\"Opravdu chceš odstranit aktualitu?\")' href='mysql/odebrani_aktuality.php?odstranit=$id'><img style='margin-right:10px;' width='20px' src='img/kos.svg'></a>";  // odstraneni
+              echo "  /  ";
+              echo "<a href='upraveni_aktuality.php?upravit=$id'><img style='margin-left:10px;' width='20px' src='img/edit.svg'></a>";   //upraveni
 
-
-              echo "<tr>";
+              echo "</tr>";
 
                }
 
@@ -150,16 +153,20 @@
 
     function vypis_aktuality_stranka($conn, $id_aktuality){
 
-      $sql = "SELECT nazev, kategorie, obsah, obr0, obr1, obr2, time FROM aktuality WHERE id='$id_aktuality'";
+      $sql = "SELECT id, nazev, kategorie, obsah, videno, obr0, obr1, obr2, time FROM aktuality WHERE id='$id_aktuality'";
       $result = mysqli_query($conn, $sql);
 
            while($row = mysqli_fetch_assoc($result)) {
 
+               $id = $row["id"];
                $nazev = $row["nazev"];
                $kategorie = $row["kategorie"];
                $obsah = $row["obsah"];
                $prevod_datum = explode("-", $row["time"]);
                $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
+               $videno = $row["videno"] + 1;
+               $sql_videno = "UPDATE aktuality SET videno='$videno'  WHERE id=$id_aktuality";
+               mysqli_query($conn, $sql_videno);
                $obr0 = $row["obr0"];
                $obr1 = $row["obr1"];
                $obr2 = $row["obr2"];
@@ -167,7 +174,7 @@
                echo "<h3>" . $nazev ."</h3>";
                echo "<p><i>Kategorie: " . $kategorie ."</i></p>";
                echo "<span id='aktualita_obsah'>" . $obsah ."</span>";
-               echo "<p><i>Datum vložení: " . $datum ."</i></p>";
+               echo "<p><i>Datum vložení: " . $datum ." | Zobrazeno: " . $videno . "x</i> </p>";
                echo '<div class="obr_aktuality_detail">';
                if ($obr0 != ""){
                   echo '<a href="in/img/aktuality/' . $obr0 . '" data-lightbox="' . $nazev . '" data-title="' . $nazev . '"><img class="img_detail img_klikatelne" src="in/img/aktuality/thum/' . $obr0 . '"></a>';

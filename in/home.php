@@ -20,25 +20,7 @@
 
 
 
-
-
-
-        <?php /*
-
-        require_once("functions.php");
-
-        require_once("pripojeni_db.php"); //pripojeni databaze
-
-        select_all_records_in($conn); ?>
-
-        <h2> Přidané akce </h2>
-
-        <?php
-
-        select_all_records_in_akce($conn); */
-
-        ?>
-
+        
 
           <script src="blocks/change_nav.js"></script>
 

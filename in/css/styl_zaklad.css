@@ -37,7 +37,6 @@ h1 {
   top: 85px;
   font-size: 33px;
   color: black;
-  margin-left: 100px;
   margin-top: 80px;
 
 }
@@ -45,6 +44,7 @@ h1 {
 section {
 
   display: flex;
+  margin-left: 320px;
 
 }
 
@@ -149,10 +149,15 @@ section {
 
 }
 
-table, th, td {
-  border: 1px solid black;
+table {
+
   font-family: 'Signika', sans-serif;
   margin: auto;
+  width: 515px;
+  text-align: center;
+  border-spacing: 0 1em;
+  width: 800px;
+
 }
 
 #navigace {
@@ -209,9 +214,19 @@ h2 {
 
 }
 
+tr:first-child {
+
+  background-color: white;
+
+}
+
 tr:nth-child(even) {background-color: #f2f2f2;}
 
+tr {
 
+  background-color: #dedede;
+
+}
 
 .navigace_in {
 
@@ -261,5 +276,13 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   font-size: 14px;
   position: absolute;
   bottom: 0;
+
+}
+
+
+.tabulka_aktuality{
+
+  overflow-y: scroll;
+  height: 700px;
 
 }
