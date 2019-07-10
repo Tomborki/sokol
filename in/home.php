@@ -1,30 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Administrativní systém</title>
+        <title>Admin - Hlavní stránka</title>
         <link href="css/styl_zaklad.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Signika:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
     </head>
+
     <body>
 
-        <div class="liska_form">
-        <a href="../index.php"><img class="logo_form" src="img/logo-sokol_lista.png" alt="logo_sokol"></a>
-            <h1> T. J. Sokol Doubravka </h1>
-        </div>
+        <?php require_once("blocks/nav.php") // NAVIGACE ------ ?>
 
-        <nav id="navigace">
-              <div id="wrap">
-                <a href="pridat_aktualitu.php" class="menu">Přidat aktualitu</a>
-                <a href="#" class="menu">Přidat fotky</a>
-                <a href="pridat_akci.php" class="menu">Přidat akci</a>
-              </div>
-        </nav>
 
-        <h2> Přidané aktuality </h2>
+        <section class="obsah_admin_hlavni">
+          <h1>Vítejte na stránce administrativy</h1>
+        </section>
 
-        <?php
+
+
+
+
+
+        <?php /*
 
         require_once("functions.php");
 
@@ -36,10 +35,12 @@
 
         <?php
 
-        select_all_records_in_akce($conn);
+        select_all_records_in_akce($conn); */
 
         ?>
 
+
+          <script src="blocks/change_nav.js"></script>
 
     </body>
 </html>

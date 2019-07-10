@@ -4,7 +4,13 @@ font-family: 'Signika', sans-serif;
 font-family: 'Hammersmith One', sans-serif;
 */
 
-
+::selection {
+  background: #ff4040;
+  color: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff4040; /* Gecko Browsers */
+}
 
 
 body {
@@ -291,7 +297,7 @@ h1 {
 }
 
 .map_container {
-    background-image: url(../img/wakefield-estate-agent-map-background.jpg);
+    background-image: url("../img/wakefield-estate-agent-map-background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -313,7 +319,7 @@ h1 {
 
 }
 
-section {
+#section_index {
 
   background-image: url("../img/bg_sokol.png");
   background-repeat: no-repeat;

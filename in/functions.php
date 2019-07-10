@@ -4,17 +4,23 @@
 
     function overeni ($jmeno_form, $heslo_form, $conn){
 
-      $sql = "SELECT id, jmeno, heslo FROM uziv";
+      $sql = "SELECT id, jmeno, heslo, prave_jmeno, prave_prijmeni FROM uziv";
       $result = mysqli_query($conn, $sql);
 
          while($row = mysqli_fetch_assoc($result)) {
 
            $uzivatel = $row["jmeno"];
            $heslo = $row["heslo"];
+           $prave_jmeno = $row["prave_jmeno"];
+           $prave_prijmeni = $row["prave_prijmeni"];
 
            if (($uzivatel == $jmeno_form) && ($heslo == $heslo_form)){
 
-                   header("Location: home.php");
+                $_SESSION["uziv"] = $uzivatel;
+                $_SESSION["heslo"] = $heslo;
+                $_SESSION["prave_jmeno"] = $prave_jmeno;
+                $_SESSION["prave_prijmeni"] = $prave_prijmeni;
+                  header("Location: home.php");
 
                }
            }

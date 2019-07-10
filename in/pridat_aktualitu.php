@@ -2,7 +2,7 @@
 <html lang="cs">
       <head>
           <meta charset="utf-8">
-          <title>Administrativní systém</title>
+          <title>Admin - Aktuality</title>
           <link href="css/styl_zaklad.css" rel="stylesheet">
           <link href="css/input_styl.css" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css?family=Signika:400,700" rel="stylesheet">
@@ -13,15 +13,9 @@
       </head>
       <body>
 
-      <div class="liska_form">
+        <?php require_once("blocks/nav.php") // NAVIGACE ------ ?>
 
-      <img class="logo_form" src="img/logo-sokol_lista.png" alt="logo_sokol">
-
-      <h1> T. J. Sokol Doubravka </h1>
-
-      </div>
-
-
+<!--
 
         <h2 class="nadpis_form_h2">Přidání aktuality</h2>
 
@@ -81,5 +75,12 @@
                 });
             </script>
         </form>
+
+      -->
+
+      <script src="blocks/change_nav.js"></script>
+
+
+
     </body>
 </html>

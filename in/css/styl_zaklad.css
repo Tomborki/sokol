@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-position-x: -129px;
-  
+
 }
 
 .login {
@@ -33,14 +33,18 @@ body {
 
 h1 {
 
-    position: relative;
-    font-family: 'Hammersmith One', sans-serif;
-    margin: auto;
-    display: table;
-    text-align: center;
-    top: 85px;
-    font-size: 33px;
-    color: black;
+  font-family: 'Hammersmith One', sans-serif;
+  top: 85px;
+  font-size: 33px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 80px;
+
+}
+
+section {
+
+  display: flex;
 
 }
 
@@ -116,7 +120,7 @@ h1 {
 
 .formular_login {
 
-  max-width: 500px;
+  max-width: 390px;
   width: 100%;
   margin: auto;
   background-color: red;
@@ -206,3 +210,56 @@ h2 {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+.navigace_in {
+
+  float: left;
+  height: 83vh;
+  background-color: white;
+
+}
+
+.navigace_in img {
+
+  width: 200px;
+  padding: 17px 40px;
+
+}
+
+.navigace_in ul {
+
+  padding: 14px 29px;
+  background-color: red;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+
+}
+
+.navigace_in li {
+
+  font-size: 27px;
+  padding: 20px 0px;
+  list-style-type: none;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.navigace_in a {
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.navigace_in li:last-child {
+
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+
+}
