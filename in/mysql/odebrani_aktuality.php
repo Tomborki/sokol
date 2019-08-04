@@ -49,9 +49,10 @@
         $sql = "DELETE FROM aktuality WHERE id=$id_aktuality";
         mysqli_query($conn, $sql);
 
+        header("Location: ../aktuality.php");
+
 ?>
 
-<a href="../home.php">Zpět</a>
 
 
 </body>

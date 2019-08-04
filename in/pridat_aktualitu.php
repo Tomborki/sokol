@@ -17,38 +17,20 @@
         <section class="obsah_admin_hlavni">
 
 
-        </form>
 
-        <div class="zobrazeni_aktualit">
+    <form action="mysql/pridani_aktuality_do_databze.php" method="post"  enctype="multipart/form-data">
 
-          <h1>Všechny přidané aktuality</h1>
-          <div class="tabulka_aktuality">
-            <?php
+                  <h1 class="nadpis_form_h2">Přidat novou aktualitu</h1>
+                  <label for="nazev">Název aktuality: </label>
+                  <input class="input_nazev" type="text" name="nazev">
 
-            require_once("functions.php");
-
-            require_once("pripojeni_db.php"); //pripojeni databaze
-
-            select_all_records_in($conn); ?>
-          </div>
-
-
-        </div>
-
-<!--
-              <form action="mysql/pridani_aktuality_do_databze.php" method="post"  enctype="multipart/form-data">
-
-                  <h1 class="nadpis_form_h2">Přidání aktuality</h1>
-                  <label for="nazev">Název aktuality</label>
-                  <input class="input_nazev" type="text" name="nazev"><br>
-
-                  <label for="radio">Důležitá aktualita?</label>
+                  <label for="radio">|  Důležitá aktualita?</label>
                   <label for="radio">Ano</label>
                   <input type="radio" name="radio" value="ano">
                   <label for="radio">Ne</label>
-                  <input type="radio" name="radio" checked value="ne"><br>
+                  <input type="radio" name="radio" checked value="ne">
 
-                  <label for="kategorie">Kategorie</label>
+                  <label for="kategorie">|  Kategorie: </label>
                   <select class="input_kategorie" name="kategorie">
                         <option value="sokol">Sokol</option>
                         <option value="badminton">Badminton</option>
@@ -56,11 +38,14 @@
                         <option value="volejbal">Volejbal</option>
                   </select><br>
 
+                  <label for="nazev">Po kliknutí přesměrovat na: </label>
+                  <input id="url" class="input_nazev" type="text" name="url">
+
 
                   <label for="upoutavka">Upoutavka</label>
                   <textarea id="upoutavka" name="upoutavka" class="ckeditor">
                       Přidejte upoutavku
-                  </textarea><br>
+                  </textarea>
 
                   <label for="obsah">Obsah aktuality</label>
                   <textarea id="obsah" name="obsah" class="ckeditor">
@@ -92,7 +77,8 @@
                       });
                   </script>
 
-                -->
+
+
 
       </section>
 

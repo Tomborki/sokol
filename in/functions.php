@@ -53,7 +53,7 @@
 
   function select_index($conn){
 
-    $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, obr0 FROM aktuality ORDER BY id DESC LIMIT 4";
+    $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality ORDER BY id DESC LIMIT 4";
     $result = mysqli_query($conn, $sql);
 
        while($row = mysqli_fetch_assoc($result)) {
@@ -66,8 +66,13 @@
          $prevod_datum = explode("-", $row["time"]);
          $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
          $obr0 = $row["obr0"];
+         $url = $row["url"];
 
+         if($url == ""){
            echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+         } else {
+           echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
+         }
 
            if($obr0 != ""){
               echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
@@ -96,7 +101,7 @@
 
    function select_all_records_in($conn){
 
-     $sql = "SELECT id, nazev, videno, time FROM aktuality ORDER BY id DESC ";
+     $sql = "SELECT id, nazev, videno, time, dulezite FROM aktuality ORDER BY id DESC ";
      $result = mysqli_query($conn, $sql);
 
           echo "<table>";
@@ -104,6 +109,7 @@
           echo "<th> ID </th>";
           echo "<th> Datum </th>";
           echo "<th> Název </th>";
+          echo "<th> Důležité </th>";
           echo "<th> Viděno </th>";
           echo "<th> Odstranit/Upravit </th>";
           echo "</tr>";
@@ -115,10 +121,11 @@
               $time = explode("-", $row["time"]);
               $datum_prevedeno = $time[2] . "." . $time[1] . "." . $time[0];
               $videno = $row["videno"];
+              $dulezite = $row["dulezite"];
 
               echo "<tr>";
 
-              echo "<td style='border-left: 5px solid red; padding: 13px;'>" . $id . "<td>" . $datum_prevedeno . "<td>" . $nazev;
+              echo "<td style='border-left: 5px solid red; padding: 13px;'>" . $id . "<td>" . $datum_prevedeno . "<td>" . $nazev . "<td>" . $dulezite;
               echo "<td>" . $videno . "x";
 
               echo "<td>";
@@ -198,7 +205,7 @@
 
   function select_aktuality($conn){
 
-    $sql = "SELECT id, nazev, kategorie, time FROM aktuality ORDER BY id DESC LIMIT 4";
+    $sql = "SELECT id, nazev, url, kategorie, time FROM aktuality ORDER BY id DESC LIMIT 4";
     $result = mysqli_query($conn, $sql);
 
        while($row = mysqli_fetch_assoc($result)) {
@@ -207,8 +214,13 @@
          $nazev = $row["nazev"];
          $kategorie = $row["kategorie"];
          $datum = $row["time"];
+         $url = $row["url"];
 
-           echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_aktuality_content'>";
+           if($url == ""){
+             echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_aktuality_content'>";
+           } else {
+             echo "<a href='" . $url . "' class='aktualita_aktuality_content'>";
+           }
 
            echo "<h3 class='aktualita_nadpis' style='font-size: 18px'>"  . $nazev .  "</h3>";
 
@@ -264,7 +276,7 @@
 
     function all_aktuality($conn){
 
-      $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, obr0 FROM aktuality ORDER BY id DESC";
+      $sql = "SELECT id, nazev, url, dulezite, upoutavka, kategorie, time, obr0 FROM aktuality ORDER BY id DESC";
       $result = mysqli_query($conn, $sql);
 
          while($row = mysqli_fetch_assoc($result)) {
@@ -277,8 +289,14 @@
            $prevod_datum = explode("-", $row["time"]);
            $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
            $obr0 = $row["obr0"];
+           $url = $row["url"];
 
+           if($url == ""){
              echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+           } else {
+             echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
+           }
+
 
              if($obr0 != ""){
                 echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
@@ -342,7 +360,7 @@
        function select_aktuality_podle_kategorie($conn, $kategorie){
 
 
-           $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC";
+           $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC";
            $result = mysqli_query($conn, $sql);
 
               while($row = mysqli_fetch_assoc($result)) {
@@ -355,8 +373,13 @@
                 $prevod_datum = explode("-", $row["time"]);
                 $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
                 $obr0 = $row["obr0"];
+                $url = $row["url"];
 
+                if($url == ""){
                   echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+                } else {
+                  echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
+                }
 
                   if($obr0 != ""){
                      echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
@@ -384,7 +407,7 @@
 
       if($kategorie == "all"){
 
-        $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, obr0 FROM aktuality WHERE time >= '$od' AND time <= '$do' ORDER BY id DESC";
+        $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality WHERE time >= '$od' AND time <= '$do' ORDER BY id DESC";
         $result = mysqli_query($conn, $sql);
 
            while($row = mysqli_fetch_assoc($result)) {
@@ -397,9 +420,13 @@
              $prevod_datum = explode("-", $row["time"]);
              $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
              $obr0 = $row["obr0"];
+             $url = $row["url"];
 
+             if($url == ""){
                echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
-
+             } else {
+               echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
+             }
                if($obr0 != ""){
                   echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
                }
@@ -423,6 +450,27 @@
 
 
   }
+
+// ----------------------------------------------------------------------------------------------
+
+
+      function sokolska_vsestrannost($conn, $oddil){
+
+
+
+            $sql = "SELECT id, $oddil FROM sv";
+            $result = mysqli_query($conn, $sql);
+
+               while($row = mysqli_fetch_assoc($result)) {
+
+                 $sv_oddil = $row[$oddil];
+
+                 echo $sv_oddil;
+
+                    }
+
+
+      }
 
 
 

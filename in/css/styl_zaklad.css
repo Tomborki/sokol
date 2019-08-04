@@ -156,7 +156,7 @@ table {
   width: 515px;
   text-align: center;
   border-spacing: 0 1em;
-  width: 800px;
+  width: 1200px;
 
 }
 
@@ -216,7 +216,8 @@ h2 {
 
 tr:first-child {
 
-  background-color: white;
+  background-color: transparent;
+  text-decoration: underline;
 
 }
 
@@ -243,7 +244,7 @@ tr {
 
 }
 
-.navigace_in ul {
+.navigace_in dl {
 
   padding: 14px 29px;
   background-color: red;
@@ -254,12 +255,23 @@ tr {
 
 }
 
-.navigace_in li {
+.navigace_in dt {
 
   font-size: 27px;
   padding: 20px 0px;
   list-style-type: none;
   font-family: 'Signika', sans-serif;
+
+}
+
+.navigace_in #akt_dd1, #akt_dd2 {
+
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Signika', sans-serif;
+  margin-left: 21px;
+  display: none;
 
 }
 
@@ -270,7 +282,7 @@ tr {
 
 }
 
-.navigace_in li:last-child {
+.navigace_in dt:last-child {
 
   color: white;
   font-size: 14px;
