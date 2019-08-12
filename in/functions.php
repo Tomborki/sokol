@@ -51,7 +51,7 @@
 
 // ----------------------------------------------------------------------------------------------
 
-  function select_index($conn){
+  function select_akt_index($conn){
 
     $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality ORDER BY id DESC LIMIT 4";
     $result = mysqli_query($conn, $sql);
@@ -94,6 +94,121 @@
 
 
    }
+
+// ----------------------------------------------------------------------------------------------
+
+   function select_akce_index($conn){
+
+     $dneska = date("Y-m-d");
+     $aktualniRok = date("Y");
+     $aktualniDen = date("d");
+     $dneskaMesic = explode("-", date("Y-m-d"));
+     $mesicPlusJeden = $dneskaMesic[1] + 1;
+
+     if($dneskaMesic[1] == "01" OR "02" OR "03" OR "04" OR "05" OR "06" OR "07" OR "08" OR "09"){
+       $datumOMesic = $aktualniRok . "-0" . $mesicPlusJeden . "-" . $aktualniDen;
+     } else {$datumOMesic = $aktualniRok . "-" . $mesicPlusJeden . "-" . $aktualniDen;}
+
+
+     $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' AND datum <= '$datumOMesic' ORDER BY datum";
+     $result = mysqli_query($conn, $sql);
+
+        while($row = mysqli_fetch_assoc($result)) {
+
+          $id_akce = $row["id"];
+          $nazev = $row["nazev"];
+          $datum = explode("-", $row["datum"]);  // 0 = rok , 1 = mesic , 2 = den
+          switch ($datum[1]) {
+              case "01":
+                  $datum_mesic_slovy = "Leden";
+                  break;
+              case "02":
+                  $datum_mesic_slovy = "Únor";
+                  break;
+              case "03":
+                  $datum_mesic_slovy = "Březen";
+                  break;
+              case "04":
+                  $datum_mesic_slovy = "Duben";
+                  break;
+              case "05":
+                  $datum_mesic_slovy = "Květen";
+                  break;
+              case "06":
+                  $datum_mesic_slovy = "Červen";
+                  break;
+              case "07":
+                  $datum_mesic_slovy = "Červenec";
+                  break;
+              case "08":
+                  $datum_mesic_slovy = "Srpen";
+                  continue;
+              case "09":
+                  $datum_mesic_slovy = "Září";
+                  continue;
+              case "10":
+                  $datum_mesic_slovy = "Říjen";
+                  continue;
+              case "11":
+                  $datum_mesic_slovy = "Listopad";
+                  break;
+              case "12":
+                  $datum_mesic_slovy = "Prosinec";
+                  break;
+          }
+
+            echo "<a href='akce_detail.php?akce=" . $id_akce . "' class='index_akce_article'>";
+
+            echo '<div id="index_akce_datum">';
+            echo '<p class="mesic_slovy">' . $datum_mesic_slovy . '</p>';
+            echo '<p class="cislo_dne_akce">' . $datum[2] . '</p>';
+            echo '</div>';
+
+            echo "<h3 class='index_akce_nazev'>"  . $nazev .  "</h3>";
+
+            echo "</a>";
+
+
+    /* $sql = "SELECT id, nazev, datum, casOd, casDo, misto FROM aktuality ORDER BY datum DESC LIMIT 3";
+     $result = mysqli_query($conn, $sql);
+
+        while($row = mysqli_fetch_assoc($result)) {
+
+          $id_akce = $row["id"];
+          $nazev_akce = $row["nazev"];
+          $prevod_datum = explode("-", $row["datum"]);
+          $datum_akce = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
+          $cas_od = $row["casOd"];
+          $cas_do = $row["casDo"];
+          $misto_akce = $row["misto"];
+
+          if($url == ""){
+            echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
+          } else {
+            echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
+          }
+
+            if($obr0 != ""){
+               echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
+            }
+
+            echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
+
+            echo $upoutavka;
+
+            echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span><br>";
+
+            if($dulezite == "ano"){
+              echo "<div id='dulezite_div'><img id='dulezite_img' src='img/dulezite.png'><p><strong>DŮLEŽITÉ!</strong></p></div>" ;
+            }
+
+            echo "</a>";
+
+          } */
+
+
+    }
+  }
 
 
    // ----------------------------------------------------------------------------------------------

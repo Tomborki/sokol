@@ -28,9 +28,9 @@
                <a href="rozvrhy.php#podnadpis_rozv_ven"> Rozvrh - venkovní prostory </a>
                <a href="rozvrhy.php#podnadpis_rozv_stt"> Rozvrh - stolní tenis </a>
                <h2> Ceník sportovišť </h2>
-               <a href="http://www.sokoldoubravka.cz/areal/cenik.php"> Ceník - pronájem vnitřních sportovišť </a>
-               <a href="http://www.sokoldoubravka.cz/areal/cenik.php"> Ceník - pronájem venkovních sportovišť </a>
-               <a href="http://www.sokoldoubravka.cz/areal/cenik.php"> Ceny za služby </a>
+               <a href="cenik.php"> Ceník - pronájem vnitřních sportovišť </a>
+               <a href="cenik.php"> Ceník - pronájem venkovních sportovišť </a>
+               <a href="cenik.php"> Ceny za služby </a>
                <a href="#">Reklama v areálu</a>
 
           </article>

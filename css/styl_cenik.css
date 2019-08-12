@@ -1,0 +1,58 @@
+.tabulka_cenik {
+
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+  border-spacing: 0px 2rem;
+
+}
+
+.tabulka_cenik th {
+
+  width: 100px;
+  background-color: white;
+  font-size: 21px;
+  text-decoration: underline;
+
+}
+
+.tabulka_cenik tr {
+
+  background-color: #f2f2f2;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.tabulka_cenik span {
+
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+
+}
+
+.tabulka_cenik td:nth-of-type(3n+1) {
+
+  text-align: left;
+  border-left: 5px solid red;
+  font-size: 18px;
+  padding: 15px;
+
+}
+
+p {
+
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  font-family: 'Signika', sans-serif;
+
+}
+
+tr td:last-child{
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+}

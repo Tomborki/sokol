@@ -47,11 +47,24 @@
 
                        require_once("in/functions.php");
 
-                       select_index($conn);
+                       select_akt_index($conn);
 
                       ?>
                     </div>
                     <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
+                    <h2 id="kde" style="margin-top: 65px;">Nejbližší akce</h2>
+                    <div class="flex_akce">
+                    <?php
+
+                      require_once("in/pripojeni_db.php"); //pripojeni databaze
+
+                      require_once("in/functions.php");
+
+                      select_akce_index($conn);
+
+                     ?>
+                   </div>
+                   <a class="info_aktualita" href="akce.php"> Zobrazit další akce </a>
             </div>
 
             <div class="map_container">

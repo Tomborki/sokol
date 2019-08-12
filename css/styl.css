@@ -845,6 +845,61 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
 
 }
 
+.index_akce_article{
+
+  display: block;
+  margin: 18px auto;
+  width: 200px;
+  background-color: #f2f2f2;
+  height: 260px;
+  text-decoration: none;
+
+
+}
+
+.flex_akce{
+
+  display: flex;
+
+}
+
+.mesic_slovy{
+
+  color: white;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+
+}
+
+.cislo_dne_akce{
+
+  text-align: center;
+  background-color: white;
+  width: 160px;
+  padding: 12px 1px;
+  margin: 0px auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 35px;
+  color: black;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.index_akce_nazev{
+
+  margin: 12px;
+  font-family: 'Signika', sans-serif;
+  color: black;
+
+}
+
 
 
 
