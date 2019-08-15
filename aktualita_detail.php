@@ -26,7 +26,7 @@
 
 
       <section class="aktualita_section">
-      <h2 class="aktualita_h2">Detail aktuality</h2>
+      <h2 id="aktualita_h2">Detail aktuality</h2>
       <div class="aktualita_detail">
           <?php vypis_aktuality_stranka($conn, $_GET["aktualita"]);  ?>
       </div>

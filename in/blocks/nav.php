@@ -1,3 +1,11 @@
+<?php /* session_start();
+
+  if(isset($_SESSION["uziv"])){
+    header("Location: index.php");
+  }
+ */
+?>
+
 
 
 <aside class="navigace_in">
@@ -10,7 +18,7 @@
     <dt><a id="akc"href="pridat_akci.php">Akce</a></dt>
     <dt><a id="sv"href="sv_admin.php">SV</a></li>
     <dt><a id="ost"href="#">Ostatní</a></dt>
-    <?php session_start() ?>
-    <dt>Přihlášen jako: <?php echo $_SESSION["prave_jmeno"] . " " . $_SESSION["prave_prijmeni"] ?><br> <a href="index.php">Odhlásit</a> </dt>
+
+    <dt>Přihlášen jako: <?php echo $_SESSION["prave_jmeno"] . " " . $_SESSION["prave_prijmeni"] ?><br> <a href="odhlaseni.php">Odhlásit</a> </dt>
   </ul>
 </aside>

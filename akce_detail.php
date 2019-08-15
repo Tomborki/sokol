@@ -26,9 +26,9 @@
 
 
       <section class="aktualita_section">
-      <h2 class="aktualita_h2">Detail akce</h2>
-      <div class="aktualita_detail">
-          <?php vypis_aktuality_stranka($conn, $_GET["akce"]);  ?>
+      <h2 id="aktualita_h2">Detail akce</h2>
+      <div class="akce_detail">
+          <?php vypis_akce_stranka($conn, $_GET["akce"]);  ?>
       </div>
       </section>
       <section class="aktualita_aktuality">

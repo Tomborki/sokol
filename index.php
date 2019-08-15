@@ -54,6 +54,7 @@
                     <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
                     <h2 id="kde" style="margin-top: 65px;">Nejbližší akce</h2>
                     <div class="flex_akce">
+
                     <?php
 
                       require_once("in/pripojeni_db.php"); //pripojeni databaze

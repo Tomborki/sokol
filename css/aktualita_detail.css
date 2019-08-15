@@ -10,7 +10,7 @@
 
 }
 
-.aktualita_detail h3 {
+#nazev_aktuality {
 
   font-family: 'Signika', sans-serif;
   font-size: 35px;
@@ -19,7 +19,7 @@
 
 }
 
-.aktualita_h2 {
+#aktualita_h2 {
 
   font-family: 'Signika', sans-serif;
   font-size: 40px;
@@ -97,5 +97,120 @@
   display: table;
   margin: auto;
   text-align: center;
+
+}
+
+.info_akce_detail {
+
+  width: 500px;
+
+}
+
+.info_akce_detail h3 {
+
+  font-size: 26px;
+  text-decoration: underline;
+  margin-top: 10px;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.info_akce_detail p {
+
+  font-size: 20px;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.info_akce_detail img {
+
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 9px;
+  margin-right: 15px;
+
+}
+
+.akce_detail {
+
+  max-width: 1200px;
+  border-left: 5px solid red;
+  margin: auto;
+  padding-left: 28px;
+  padding-right: 28px;
+  display: flex;
+
+}
+
+.obsah_akce_detail {
+
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Signika', sans-serif;
+  max-width: 700px;
+  width: 100%;
+
+}
+
+.kalendar {
+
+  font-size: 23px;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.kalendar_container{
+
+    margin: 0 auto;
+    width: 282px;
+
+}
+
+.kalendar_container p{
+
+  font-size: 13px;
+  word-break: break-word;
+  font-family: 'Signika', sans-serif;
+
+}
+
+.kalendar td {
+
+  padding: 5px;
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+
+}
+
+.den_akce_v_kalendari{
+
+  color: red;
+  text-decoration: none;
+
+}
+
+#kalendar_nadpis{
+
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+
+}
+
+.obsah_akce{
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.bud_akce{
+
+  display: flex;
+  overflow-x: scroll;
+  width: 800px;
+  margin: auto;
+  scroll-behavior: smooth;
 
 }

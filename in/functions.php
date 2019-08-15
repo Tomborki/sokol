@@ -113,102 +113,67 @@
      $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' AND datum <= '$datumOMesic' ORDER BY datum";
      $result = mysqli_query($conn, $sql);
 
-        while($row = mysqli_fetch_assoc($result)) {
+              while($row = mysqli_fetch_assoc($result)) {
 
-          $id_akce = $row["id"];
-          $nazev = $row["nazev"];
-          $datum = explode("-", $row["datum"]);  // 0 = rok , 1 = mesic , 2 = den
-          switch ($datum[1]) {
-              case "01":
-                  $datum_mesic_slovy = "Leden";
-                  break;
-              case "02":
-                  $datum_mesic_slovy = "Únor";
-                  break;
-              case "03":
-                  $datum_mesic_slovy = "Březen";
-                  break;
-              case "04":
-                  $datum_mesic_slovy = "Duben";
-                  break;
-              case "05":
-                  $datum_mesic_slovy = "Květen";
-                  break;
-              case "06":
-                  $datum_mesic_slovy = "Červen";
-                  break;
-              case "07":
-                  $datum_mesic_slovy = "Červenec";
-                  break;
-              case "08":
-                  $datum_mesic_slovy = "Srpen";
-                  continue;
-              case "09":
-                  $datum_mesic_slovy = "Září";
-                  continue;
-              case "10":
-                  $datum_mesic_slovy = "Říjen";
-                  continue;
-              case "11":
-                  $datum_mesic_slovy = "Listopad";
-                  break;
-              case "12":
-                  $datum_mesic_slovy = "Prosinec";
-                  break;
-          }
+                $id_akce = $row["id"];
+                $nazev = $row["nazev"];
+                $datum = explode("-", $row["datum"]);  // 0 = rok , 1 = mesic , 2 = den
+                switch ($datum[1]) {
+                    case "01":
+                        $datum_mesic_slovy = "Leden";
+                        break;
+                    case "02":
+                        $datum_mesic_slovy = "Únor";
+                        break;
+                    case "03":
+                        $datum_mesic_slovy = "Březen";
+                        break;
+                    case "04":
+                        $datum_mesic_slovy = "Duben";
+                        break;
+                    case "05":
+                        $datum_mesic_slovy = "Květen";
+                        break;
+                    case "06":
+                        $datum_mesic_slovy = "Červen";
+                        break;
+                    case "07":
+                        $datum_mesic_slovy = "Červenec";
+                        break;
+                    case "08":
+                        $datum_mesic_slovy = "Srpen";
+                        continue;
+                    case "09":
+                        $datum_mesic_slovy = "Září";
+                        continue;
+                    case "10":
+                        $datum_mesic_slovy = "Říjen";
+                        continue;
+                    case "11":
+                        $datum_mesic_slovy = "Listopad";
+                        break;
+                    case "12":
+                        $datum_mesic_slovy = "Prosinec";
+                        break;
+                }
 
-            echo "<a href='akce_detail.php?akce=" . $id_akce . "' class='index_akce_article'>";
+                  echo "<a href='akce_detail.php?akce=" . $id_akce . "' class='index_akce_article'>";
 
-            echo '<div id="index_akce_datum">';
-            echo '<p class="mesic_slovy">' . $datum_mesic_slovy . '</p>';
-            echo '<p class="cislo_dne_akce">' . $datum[2] . '</p>';
-            echo '</div>';
+                  echo '<div id="index_akce_datum">';
+                  echo '<p class="mesic_slovy">' . $datum_mesic_slovy . '</p>';
+                  echo '<p class="cislo_dne_akce">' . $datum[2] . '</p>';
+                  echo '</div>';
 
-            echo "<h3 class='index_akce_nazev'>"  . $nazev .  "</h3>";
+                  echo "<h3 class='index_akce_nazev'>"  . $nazev .  "</h3>";
 
-            echo "</a>";
+                  echo '<p class="male_info_akce">Pro více informací rozklikni</p>';
 
+                  echo "</a>";
 
-    /* $sql = "SELECT id, nazev, datum, casOd, casDo, misto FROM aktuality ORDER BY datum DESC LIMIT 3";
-     $result = mysqli_query($conn, $sql);
-
-        while($row = mysqli_fetch_assoc($result)) {
-
-          $id_akce = $row["id"];
-          $nazev_akce = $row["nazev"];
-          $prevod_datum = explode("-", $row["datum"]);
-          $datum_akce = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
-          $cas_od = $row["casOd"];
-          $cas_do = $row["casDo"];
-          $misto_akce = $row["misto"];
-
-          if($url == ""){
-            echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_article'>";
-          } else {
-            echo "<a href='" . $url . "' target='_blank' class='aktualita_article'>";
-          }
-
-            if($obr0 != ""){
-               echo '<img id="aktuality_index_obr" src="in/img/aktuality/thum/' . $obr0 . '">';
             }
-
-            echo "<h3 class='aktualita_nadpis'>"  . $nazev .  "</h3>";
-
-            echo $upoutavka;
-
-            echo "<span class='aktualita_small_info'>" . $kategorie . " | " . $datum ."</span><br>";
-
-            if($dulezite == "ano"){
-              echo "<div id='dulezite_div'><img id='dulezite_img' src='img/dulezite.png'><p><strong>DŮLEŽITÉ!</strong></p></div>" ;
-            }
-
-            echo "</a>";
-
-          } */
-
 
     }
-  }
+
 
 
    // ----------------------------------------------------------------------------------------------
@@ -293,7 +258,7 @@
                $obr1 = $row["obr1"];
                $obr2 = $row["obr2"];
 
-               echo "<h3>" . $nazev ."</h3>";
+               echo "<h3 id='nazev_aktuality'>" . $nazev ."</h3>";
                echo "<p><i>Kategorie: " . $kategorie ."</i></p>";
                echo "<span id='aktualita_obsah'>" . $obsah ."</span>";
                echo "<p><i>Datum vložení: " . $datum ." | Zobrazeno: " . $videno . "x</i> </p>";
@@ -316,6 +281,44 @@
 
 }
 
+
+
+// ----------------------------------------------------------------------------------------------
+
+
+function vypis_akce_stranka($conn, $id_akce){
+
+  $sql = "SELECT id, nazev, datum, casOd, casDo, misto, url_misto, obsah FROM akce WHERE id='$id_akce'";
+  $result = mysqli_query($conn, $sql);
+
+       while($row = mysqli_fetch_assoc($result)) {
+
+           $id = $row["id"];
+           $nazev = $row["nazev"];
+           $prevod_datum = explode("-", $row["datum"]);
+           $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
+           $casOd = $row["casOd"];
+           $casDo = $row["casDo"];
+           $misto = $row["misto"];
+           $obsah = $row["obsah"];
+           $url_misto = $row["url_misto"];
+
+           echo '<div class="info_akce_detail">';
+           echo "<h3>" . $nazev ."</h3>";
+           echo "<p><img src='img/calendar-with-a-clock-time-tools.svg' alt='kalendář'>" . $datum . "</p>";
+           echo "<p><img src='img/passage-of-time.svg' alt='čas'>" . $casOd . " - " . $casDo . "</p>";
+           echo "<p><img src='img/facebook-placeholder-for-locate-places-on-maps.svg' alt='místo'>" . $misto . "</p>";
+           if($url_misto != ""){
+             echo "<p><a href='" . $url_misto . "' target='_blank'>Zobrazit na mapě</a></p>";
+           }
+           echo '</div>';
+           echo '<div class="obsah_akce_detail">' . $obsah . '</div>';
+
+
+ }
+
+}
+
 // ----------------------------------------------------------------------------------------------
 
   function select_aktuality($conn){
@@ -334,7 +337,7 @@
            if($url == ""){
              echo "<a href='aktualita_detail.php?aktualita=" . $id_aktuality . "' class='aktualita_aktuality_content'>";
            } else {
-             echo "<a href='" . $url . "' class='aktualita_aktuality_content'>";
+             echo "<a href='" . $url . "' target='_blank' class='aktualita_aktuality_content'>";
            }
 
            echo "<h3 class='aktualita_nadpis' style='font-size: 18px'>"  . $nazev .  "</h3>";
@@ -458,7 +461,7 @@
              $nazev = $row["nazev"];
              $datum = explode("-", $row["datum"]);  // 0 = rok , 1 = mesic , 2 = den
 
-               echo "<a href='#' class='akce_article'>";
+               echo "<a href='akce_detail.php?akce=" . $id_akce . "' class='akce_article'>";
 
                echo '<div id="akce_datum">' . $datum[2] . '. ' . $datum[1] . '.</div>';
 

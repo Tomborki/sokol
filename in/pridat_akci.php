@@ -39,6 +39,8 @@
             <input class="input_nazev" type="time" name="casDo"><br>
             <h3>Místo</h3>
             <input class="input_nazev" type="text" name="misto"><br>
+            <h3>URL s mapou (nepovinné)</h3>
+            <input class="input_nazev" type="text" name="url_mapa"><br>
 
             <h3>Obsah akce</h3>
             <textarea name="obsah" class="ckeditor">

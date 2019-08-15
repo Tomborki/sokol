@@ -848,18 +848,33 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
 .index_akce_article{
 
   display: block;
-  margin: 18px auto;
+  margin: 18px;
   width: 200px;
   background-color: #f2f2f2;
   height: 260px;
   text-decoration: none;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: box-shadow 0.5s ease-in-out;
 
+
+}
+
+.index_akce_article:hover{
+
+  -webkit-box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
+  box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
+  transition: 0.3s ease-in-out;
 
 }
 
 .flex_akce{
 
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
@@ -897,6 +912,30 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   margin: 12px;
   font-family: 'Signika', sans-serif;
   color: black;
+  text-align: center;
+
+}
+
+.male_info_akce{
+
+  text-align: center;
+  color: black;
+  font-family: 'Signika', sans-serif;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  text-decoration: underline;
+
+}
+
+.zadne_akce_p{
+
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 40px;
+  font-family: 'Signika', sans-serif;
 
 }
 
