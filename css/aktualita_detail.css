@@ -59,7 +59,7 @@
 
 .aktualita_aktuality div {
 
-  max-width: 500px;
+  max-width: 430px;
   width: 100%;
   margin: auto;
   padding: 10px;
@@ -140,6 +140,7 @@
   padding-left: 28px;
   padding-right: 28px;
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -149,10 +150,36 @@
   background-color: white;
   border-radius: 10px;
   font-family: 'Signika', sans-serif;
-  max-width: 700px;
+  max-width: 680px;
   width: 100%;
 
 }
+
+@media screen and (max-width: 1278px) {
+
+      .info_akce_detail {
+        width: 308px;
+    }
+
+}
+
+@media screen and (max-width: 1086px) {
+
+  .akce_detail {
+
+       flex-wrap: nowrap;
+
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .akce_detail {
+
+         flex-wrap: wrap;
+
+      }
+    }
 
 .kalendar {
 
@@ -209,8 +236,70 @@
 
   display: flex;
   overflow-x: scroll;
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   margin: auto;
   scroll-behavior: smooth;
+
+}
+
+.bud_akce_container{
+
+  max-width: 801px;
+  width: 100%;
+  margin: auto;
+
+}
+
+.uplynule_akce {
+
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  position: relative;
+  bottom: -67px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.probehle_akce {
+
+  margin: auto;
+  font-family: 'Signika', sans-serif;
+  font-size: 18px;
+  max-width: 615px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-spacing: 0 9px;
+  padding-bottom: 58px;
+
+}
+
+.probehle_akce img {
+
+  width: 57%;
+  position: relative;
+  top: 3px;
+  left: 10px;
+
+}
+
+.s_obrazkem {
+
+  width: 50px;
+
+}
+
+.probehle_akce  tr {
+
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.nazev_probehle {
+
+
 
 }

@@ -188,15 +188,19 @@
           <div class="bud_akce_container">
             <h3 id="kalendar_nadpis">Všechny budoucí akce</h3>
             <div class="bud_akce">
-              <?php select_akce_index($conn); ?>
+              <?php select_akce_vsechny_bud($conn); ?>
             </div>
           </div>
-            </div>
+        </div>
+        <div class="uplynule_akce">
+          <h3 id="kalendar_nadpis">Proběhlé akce</h3>
+          <?php select_akce_vsechny_uplynule($conn) ?>
+        </div>
       </div>
 
       </section>
 
-
+      
 
 
 
