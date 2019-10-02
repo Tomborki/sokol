@@ -7,7 +7,7 @@
         <a href="index.php"> <img class="logo_sokol" src="img/logo-sokol_lista.png" alt="Sokol-logo"> </a>
         <a href="https://www.facebook.com/sokoldoubravka/" target="_blank"><img class="logo_fb" src="img/if_square-facebook_317727.svg" width="20"></a>
         <a href="https://www.mojespolky.cz/web/map?lat=49.75526119999999&lng=13.42628149999996&z=18" target="_blank"> <img class="logo_spolky" src="https://www.mojespolky.cz/img/MojeSpolky-horizontal.png" width="100"></a>
-        <a class="nadpis" href="index.php"> <h1>T. J. Sokol Doubravka</h1> </a>
+        <a class="nadpis" href="index.php"> <h1>T. J. Sokol Plzeň-Doubravka</h1> </a>
     </header>
     <nav id="navigace">
           <div id="wrap">

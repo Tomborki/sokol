@@ -1020,7 +1020,7 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
 }
 
 .plzen {
-    display: block;
+    display: table;
     font-family: 'Signika', sans-serif;
     font-size: 15px;
     color: white;

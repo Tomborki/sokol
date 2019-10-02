@@ -2,9 +2,9 @@
     #navigace {
         display: none;
     }
-    
-    
-    
+
+
+
     #lista_bila img.logo_spolky {
    display: none;
 }
@@ -12,22 +12,22 @@
     #lista_bila img.logo_fb {
   display: none;
 }
-    
+
     .rodic_sport {
         flex-wrap: wrap;
-    } 
-    
+    }
+
     #lista_bila {
         width: 100%;
         background-color: red;
         height: 80px;
         margin: 0px;
     }
-    
+
     #lista_bila img.logo_sokol {
-        display: none; 
+        display: none;
     }
-    
+
     h1 {
     position: relative;
     right: 25px;
@@ -37,13 +37,13 @@
     display: block;
     text-align: right;
     top: 11.75px;
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: white;
     transition: all .35s ease-out;
 }
-    
+
 /*---------------------------------------------Hamburger----------------------------------------------------------------------------*/
-    
+
     /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -57,12 +57,12 @@
 
     .navigation_burger {
         display: block;
-    }   
-    
+    }
+
     #menuToggle {
     display: block;
 }
-    
+
 .burg
 {
   text-decoration: none;
@@ -82,9 +82,9 @@ a:hover
   position: relative;
   top: -60px;
   left: 27px;
-  
+
   z-index: 1;
-  
+
   -webkit-user-select: none;
   user-select: none;
 }
@@ -97,12 +97,12 @@ a:hover
   position: absolute;
   top: -7px;
   left: -5px;
-  
+
   cursor: pointer;
-  
+
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-  
+
   -webkit-touch-callout: none;
 }
 
@@ -116,14 +116,14 @@ a:hover
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
+
   background: white;
   border-radius: 3px;
-  
+
   z-index: 1;
-  
+
   transform-origin: 4px 0px;
-  
+
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -139,7 +139,7 @@ a:hover
   transform-origin: 0% 100%;
 }
 
-/* 
+/*
  * Transform all the slices of hamburger
  * into a crossmark.
  */
@@ -183,10 +183,10 @@ a:hover
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
+
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
+
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -206,54 +206,54 @@ a:hover
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
-    
+
     #container_zacatek {
         padding: 0px;
-    }    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
