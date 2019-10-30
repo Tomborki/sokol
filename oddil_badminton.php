@@ -25,9 +25,6 @@
 
              <p>   Oddílu bývá často svěřováno pořadatelství některého z Mistrovství ČR, pravidelně je pořadatelem sokolských přeborů družstev či jednotlivců. Je vybraným oddílem České obce sokolské, mnohonásobným držitelem titulu Přeborník kraje (oblasti) a účastníkem většiny celorepublikových turnajů. Dloudobě spolupracuje s 25. základní školou v Plzni - zajišťuje mimoškolní přípravu žáků tříd s rozšířeným vyučováním tělesné výchově se zaměřením na badminton. Pravidelná tréninková činnost, při které kromě prostor vlastní tělocvičny musí výraznou měrou využívat pronajaté prostory ve školních tělocvičních, její návaznost na strukturu soutěžní sezóny, maximální možná účast na soutěžích vč. zahraničních, pravidelně pořádaná letní soustředění, ale především snaha o výchovu vlastní kvalitní hráčské i trenérské základny, to jsou pilíře, na kterých oddíl dlouhodobě staví.</p>
 
-             <p>   Snaha dosáhnout návaznosti žactvo - dorost - dospělí vedla (kromě již zmíněné spolupráce s 25. základní školou v Plzni) k zapojení do činnosti Sportovního centra mládeže v badmintonu v Českém Krumlově a následně ke vzniku samostatného regionálního tréninkového centra. Na základě výběru pracujeme nejenom s vlastními hráči, ale i s hráči jiných oddílů (klubů) z našeho regionu. </p>
-
-              <p>  Dlouhá léta chyběl kvalitní třetí článek systému. Pokusy o spolupráci s jinými oddíly či kluby v kategorii dospělých vyznívaly víceméně naprázdno. Několikrát jsme sestavili společný tým dospělých a vytvořili pro něj kvalitní tréninkové možnosti. Výsledek této snahy na sebe ale nechal opravdu dlouho čekat. Teprve v sezóně 2003/04 se družstvu složenému z hráčů Keramiky Chlumčany a našeho oddílu podařilo nejenom zvítězit ve sdruženém krajském přeboru ( Plzeňský a Karlovarský kraj), ale i uspět v kvalifikaci o II. ligu. Družstvo se ale v soutěži udrželo jedinou sezónu a po několika krutých porážkách a umístění na sestupovém místě se vrátilo zpět do Krajského přeboru. V sezóně 2005/06 se A-družstvo stalo opět bez problémů krajským přeborníkem, ale do kvalifikace o II.ligu nezasáhlo. O rok později mu k vítězství v kvalifikaci chyběl pověstný kousek štěstí. Přání nás všech se splnilo až v sezóně 2007/08. A-družstvo prošlo suverénně krajskou soutěží a dokázalo zvítězit i v kvalifikaci. Od sezóny 2008/09 s přerušením v sezóně 2015/2016 startuje A-tým v západní skupině I. celostátní ligy.</p>
           </div>
 
           <div class="social_container_oddil">
@@ -64,6 +61,12 @@
                     </article>
                 </section>
             </div>
+            <div id="info" style="top: 0px;">
+
+                 <p>   Snaha dosáhnout návaznosti žactvo - dorost - dospělí vedla (kromě již zmíněné spolupráce s 25. základní školou v Plzni) k zapojení do činnosti Sportovního centra mládeže v badmintonu v Českém Krumlově a následně ke vzniku samostatného regionálního tréninkového centra. Na základě výběru pracujeme nejenom s vlastními hráči, ale i s hráči jiných oddílů (klubů) z našeho regionu. </p>
+
+                  <p>  Dlouhá léta chyběl kvalitní třetí článek systému. Pokusy o spolupráci s jinými oddíly či kluby v kategorii dospělých vyznívaly víceméně naprázdno. Několikrát jsme sestavili společný tým dospělých a vytvořili pro něj kvalitní tréninkové možnosti. Výsledek této snahy na sebe ale nechal opravdu dlouho čekat. Teprve v sezóně 2003/04 se družstvu složenému z hráčů Keramiky Chlumčany a našeho oddílu podařilo nejenom zvítězit ve sdruženém krajském přeboru ( Plzeňský a Karlovarský kraj), ale i uspět v kvalifikaci o II. ligu. Družstvo se ale v soutěži udrželo jedinou sezónu a po několika krutých porážkách a umístění na sestupovém místě se vrátilo zpět do Krajského přeboru. V sezóně 2005/06 se A-družstvo stalo opět bez problémů krajským přeborníkem, ale do kvalifikace o II.ligu nezasáhlo. O rok později mu k vítězství v kvalifikaci chyběl pověstný kousek štěstí. Přání nás všech se splnilo až v sezóně 2007/08. A-družstvo prošlo suverénně krajskou soutěží a dokázalo zvítězit i v kvalifikaci. Od sezóny 2008/09 s přerušením v sezóně 2015/2016 startuje A-tým v západní skupině I. celostátní ligy. </p>
+              </div>
 
             <div class="aktuality_container">
                      <h2 id="kde">Aktuality v kategorii badminton</h2>

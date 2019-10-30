@@ -20,13 +20,13 @@
 
 
 
-         <div class="ikony">
-                <h2 id="sport"> Sportovní oddíly </h2>
+          <div class="ikony">
+                <h2 id="sport"> Pojď si zasportovat... </h2>
                 <section class="rodic_sport">
-      	             <a class="sporty_zalozka oddil_zalozka" href="oddil_badminton.html"> <p class="popis_oddil"> Badminton </p> <img class="foto_oddil" src="img/nohejbalpoutnibozkov00058np.jpg">   </a>
-      	             <a class="sporty_zalozka oddil_zalozka" href="oddil_nohejbal.html">    </a>
-      	             <a class="sporty_zalozka oddil_zalozka" href="oddil_stolnitenis.html">    </a>
-                     <a class="sporty_zalozka oddil_zalozka" href="oddil_volejbal.html">    </a>
+      	             <a class="sporty badminton" href="oddil_badminton.php">    </a>
+      	             <a class="sporty nohejbal" href="oddil_nohejbal.php">    </a>
+      	             <a class="sporty ping" href="oddil_stolnitenis.php">    </a>
+                     <a class="sporty volejbal" href="oddil_volejbal.php">    </a>
 
                 </section>
             </div>

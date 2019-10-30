@@ -17,7 +17,7 @@
             <a href="foto.php" class="menu">Foto</a>
             <a href="kontakt.php" class="menu">Kontakt</a>
             <a href="sv.php" class="menu">Sokolská všestrannost</a>
-            <a href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview" class="menu" target="_blank">Rezervace</a>
+            <a href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview" class="menu rezervace_nav" target="_blank">Rezervace</a>
           </div>
     </nav>
 

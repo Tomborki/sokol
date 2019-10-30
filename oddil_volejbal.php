@@ -28,18 +28,19 @@
         </div>
 
         <div class="social_container_oddil_volejbal">
-              <h2 class="like rezervace_nadpis"> Aktuální tabulky, rozpisy a výsledky utkání soutěží: </h2>
+              <h2 class="like rezervace_nadpis" style="text-decoration: underline;"> Aktuální tabulky, rozpisy a výsledky utkání soutěží: </h2>
               <section class="rodic_social_oddil">
                    <article class="flex_social_oddil_volej">
 
-                        <h3>Muži - I. třída Plzeň-město</h3>
-                       <iframe id="form_tabulka" src="http://m.cvf.cz/skupina.php?soutez=PM-M" name="myiFrame" scrolling="yes" frameborder="1" marginheight="500px" marginwidth="0px" height="500px" max-width="500px" width="100%" allowfullscreen></iframe>
+                        <h3>Muži - I. třída Plzeň-město</h3>    
+                        <a class="tabulka_volej_tlacitko" href="http://m.cvf.cz/skupina.php?soutez=PM-M" target="_blank">Tabulka</a>                 
+
 
                   </article>
                    <article class="flex_social_oddil_volej">
 
                         <h3>Ženy - I. třída Plzeň-město</h3>
-                        <iframe id="form_tabulka" src="http://m.cvf.cz/skupina.php?soutez=PM-Z" name="myiFrame" scrolling="yes" frameborder="1" marginheight="500px" marginwidth="0px" height="500px" max-width="500px" width="100%" allowfullscreen></iframe>
+                        <a class="tabulka_volej_tlacitko" href="http://m.cvf.cz/skupina.php?soutez=PM-Z" target="_blank">Tabulka</a>          
 
                   </article>
               </section>

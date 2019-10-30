@@ -35,7 +35,7 @@
             <div class="person_flex">
 
               <p class="funkce_kontakt">Starosta</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_1.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt">Karas Milan</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420720294536"><p class="cislo_kontakt">720 294 536</p></a>
@@ -47,7 +47,7 @@
             <div class="person_flex">
 
               <p class="funkce_kontakt">Jednatelka</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_2.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt">Nováková Milada</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420602169692"><p class="cislo_kontakt">602 169 692</p></a>
@@ -59,7 +59,7 @@
             <div class="person_flex">
 
               <p class="funkce_kontakt">Hospodář</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_3.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt">Faist Jan</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420603170268"><p class="cislo_kontakt">603 170 268</p></a>
@@ -71,7 +71,7 @@
             <div class="person_flex">
 
               <p class="funkce_kontakt">Vzdělavatel</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_4.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt">Kozáková Jana</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420605751092"><p class="cislo_kontakt">605 751 092</p></a>
@@ -79,6 +79,7 @@
               <a href="mailto:jana_kozakova@post.cz"><p class="email_kontakt">jana_kozakova@post.cz</p></a>
 
             </div>
+
 
           </div>
 
@@ -98,7 +99,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Badminton</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_5.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Brychta Jaromír</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420605754747"><p class="cislo_kontakt_odd">605 754 747</p></a>
@@ -111,7 +112,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Kulturistika</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_6.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Prokop Václav</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420605749240"><p class="cislo_kontakt_odd">605 749 240</p></a>
@@ -123,7 +124,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Nohejbal</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_7.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Auzký Vladimír</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420602109569"><p class="cislo_kontakt_odd">602 109 569</p></a>
@@ -135,7 +136,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Stolní tenis</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_8.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Palek Vladimír</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420608124624"><p class="cislo_kontakt_odd">608 124 624</p></a>
@@ -147,7 +148,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Volejbal</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_9.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Kopp Jan</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420723608395"><p class="cislo_kontakt_odd">723 608 395</p></a>
@@ -169,20 +170,31 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Webmaster</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_10.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Borkovec Tomáš</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420720141853"><p class="cislo_kontakt_odd">720 141 853</p></a>
               <img src="img/obalka_icon.png" alt="obálka">
               <a href="mailto:tomasborki@gmail.com"><p class="email_kontakt_odd">tomasborki@gmail.com</p></a>
 
-
             </div>
 
             <div class="person_odd_flex">
 
+              <p class="funkce_kontakt_odd">Náčelnice</p>
+              <img class="avatar" src="img/avatars/avatar_11.png" alt="avatar" width="50%">
+              <p class="jmeno_kontakt_odd">Štichová Miroslava</p>
+              <img src="img/tel_icon.png">
+              <a href="tel:+420720141853"><p class="cislo_kontakt_odd">602 690 747</p></a>
+              <img src="img/obalka_icon.png" alt="obálka">
+              <a href="mailto:tomasborki@gmail.com"><p class="email_kontakt_odd">miroslava.stichova@seznam.cz</p></a>
+
+              </div>
+
+            <div class="person_odd_flex">
+
               <p class="funkce_kontakt_odd">Předseda kontrolní komise</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar_12.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Šestáková Anna</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420604669382"><p class="cislo_kontakt_odd">604 669 382</p></a>
@@ -194,7 +206,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Správce objektu</p>
-              <img class="avatar" src="img/avatar.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatar" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Toman Zdeněk</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420603816662"><p class="cislo_kontakt_odd">603 816 662</p></a>

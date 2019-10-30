@@ -12,339 +12,313 @@ font-family: 'Hammersmith One', sans-serif;
   background: #ff4040; /* Gecko Browsers */
 }
 
-
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .mobil {
-    display: none;
+  display: none;
 }
 
-
-
 #progres {
-    width: 100%;
-    height: 1000px;
-    background-image: url(../img/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #progres_nadpis {
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 40px;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 40px;
 }
 
 #progres_odkaz {
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
 }
 
-
 #lista_bila {
-    width: 100%;
-    background-color: white;
-    height: 160px;
-    margin: 0px;
-    z-index: 100;
-    border-bottom: 5px solid red;
+  width: 100%;
+  background-color: white;
+  height: 160px;
+  margin: 0px;
+  z-index: 100;
+  border-bottom: 5px solid red;
 }
 
 h1 {
-    position: relative;
-    font-family: 'Hammersmith One', sans-serif;
-    margin: auto;
-    display: table;
-    text-align: center;
-    top: 85px;
-    font-size: 33px;
-    color: black;
+  position: relative;
+  font-family: "Hammersmith One", sans-serif;
+  margin: auto;
+  display: table;
+  text-align: center;
+  top: 85px;
+  font-size: 33px;
+  color: black;
 }
 
 .nadpis {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nadpis:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #lista_bila img.logo_sokol {
-    display: block;
-    margin: auto;
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    margin-left: -30px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -30px;
 }
 
 #lista_bila img.logo_spolky {
-    margin: auto;
-    position: absolute;
-    left: 50%;
-    top: 96px;
-    margin-left: 384px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 96px;
+  margin-left: 384px;
 }
 
 #lista_bila img.logo_fb {
-    margin: auto;
-    position: absolute;
-    left: 50%;
-    top: 66px;
-    margin-left: 462px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 66px;
+  margin-left: 462px;
 }
 
-
-
 #navigace {
-    max-width: 1000px;
-    width: 100%;
-    height: 70px;
-    background-color: red;
-    margin: auto;
-    margin-top: -30px;
-    border-radius: 10px;
-    position: relative;
-    z-index: 2;
+  max-width: 1000px;
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  margin: auto;
+  margin-top: -30px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 #nav2 {
-    display: none;
+  display: none;
 }
 
 .menu {
-
-    height: 60px;
-    text-align: center;
-    border: 1.15px solid red;
-    border-radius: 5px;
-    margin: 0px 10px;
-    margin-left: 13px;
-    padding: 16px 20px;
-    transition: border .35s ease-out;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.125em;
-    color: white;
-    position: relative;
-    top: 23px;
-    text-decoration: none;
-
+  height: 60px;
+  text-align: center;
+  border: 1.15px solid red;
+  border-radius: 5px;
+  margin: 0px 10px;
+  margin-left: 13px;
+  padding: 16px 20px;
+  transition: border 0.35s ease-out;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.125em;
+  color: white;
+  position: relative;
+  top: 23px;
+  text-decoration: none;
 }
 
 .menu:hover {
-    border: 1.15px solid #FF8484;
-    border-radius: 5px;
-    transition: all .35s ease-out;
+  border: 1.15px solid #ff8484;
+  border-radius: 5px;
+  transition: all 0.35s ease-out;
 }
 
-
 .areal {
-    margin-left: 33px;
+  margin-left: 33px;
 }
 
 #wrap {
-    margin: auto;
-    display: block;
-
+  margin: auto;
+  display: block;
 }
 
 .menu_napis {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.125em;
-    color: white;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.125em;
+  color: white;
 }
 
 .velka_fotka {
-    background-image: url(../img/DSC_0023.jpg);
-    margin-top: -40px;
-    height: 77.5vmin;
-    max-width: 100%;
-    border-bottom: 5px solid red;
-    background-position: center;
-    background-size: cover;
+  background-image: url(../img/DSC_0023.jpg);
+  margin-top: -40px;
+  height: 77.5vmin;
+  max-width: 100%;
+  border-bottom: 5px solid red;
+  background-position: center;
+  background-size: cover;
 }
-
 
 .ikony {
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-    background-color: #f2f2f2;
-    margin-top: -50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-bottom: 40px;
-    margin-bottom: 56px;
-
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  margin-top: -50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 56px;
 }
 
-
-
-
 .rodic_sport {
-    display: flex;
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 #sport {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 30px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    position: relative;
-    top: 25px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+  top: 25px;
 }
 
 .flex {
-    max-width: 227px;
-    width: 100%;
-    height: 227px;
-    margin: 10px;
-    border: 1.5px solid #f2f2f2;
-    border-radius: 10px;
-    padding-bottom: -10px;
+  max-width: 227px;
+  width: 100%;
+  height: 227px;
+  margin: 10px;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
+  padding-bottom: -10px;
 }
 
 .sporty {
-    display: block;
-    max-width: 227px;
-    width: 100%;
-    height: 227px;
-    margin: auto;
-    border: 1.5px solid #f2f2f2;
-    border-radius: 10px;
+  display: block;
+  max-width: 227px;
+  width: 100%;
+  height: 227px;
+  margin: auto;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
 }
 
-
 .badminton {
-    background-image: url(../img/badminton-sport-thumbnail-600x400.jpg);
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    transition: all .35s ease-out;
+  background-image: url(../img/badminton-sport-thumbnail-600x400.jpg);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.35s ease-out;
 }
 
 .badminton:hover {
-    background-image: url(../img/badmin_hover.png);
-    border: 1.5px solid black;
-    transition: all .35s ease-out;
+  background-image: url(../img/badmin_hover.png);
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
 }
 
 .volejbal {
-    background-image: url(../img/volejbal.jpg);
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    transition: all .35s ease-out;
+  background-image: url(../img/volejbal.jpg);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.35s ease-out;
 }
 
 .volejbal:hover {
-    background-image: url(../img/volej_hover.png);
-    border: 1.5px solid black;
-    transition: all .35s ease-out;
+  background-image: url(../img/volej_hover.png);
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
 }
 
 .nohejbal {
-    background-image: url(../img/nohejbalpoutnibozkov00058np.jpg);
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    transition: all .35s ease-out;
+  background-image: url(../img/nohejbalpoutnibozkov00058np.jpg);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.35s ease-out;
 }
 
 .nohejbal:hover {
-    background-image: url(../img/nohej_hover.png);
-    border: 1.5px solid black;
-    transition: all .35s ease-out;
+  background-image: url(../img/nohej_hover.png);
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
 }
 
 .ping {
-    background-image: url(../img/183785.jpg);
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    transition: all .35s ease-out;
+  background-image: url(../img/183785.jpg);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.35s ease-out;
 }
 
 .ping:hover {
-    background-image: url(../img/ping_hover.png);
-    border: 1.5px solid black;
-    transition: all .35s ease-out;
+  background-image: url(../img/ping_hover.png);
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
 }
-
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 #kde {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 30px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 22px;
-    margin-bottom: 29px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 22px;
+  margin-bottom: 29px;
 }
 
 .map_container {
-    background-image: url("../img/wakefield-estate-agent-map-background.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0,0,0,0.52);
-    filter: blur(0.2);
-    margin-top: 56px;
-    padding-top: 1px;
-    padding-bottom: 40px;
+  background-image: url("../img/wakefield-estate-agent-map-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0, 0, 0, 0.52);
+  filter: blur(0.2);
+  margin-top: 56px;
+  padding-top: 1px;
+  padding-bottom: 40px;
 }
 
 .aktuality_container {
-
-    margin-top: 56px;
-    padding-top: 1px;
-    padding-bottom: 40px;
-    max-width: 1200px;
-    width: 99%;
-    margin: auto;
-
+  margin-top: 56px;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  width: 99%;
+  margin: auto;
 }
 
 #section_index {
-
   background-image: url("../img/bg_sokol.png");
   background-repeat: no-repeat;
   background-position: left;
   background-position-y: 600px;
   background-position-x: -100px;
-
 }
 
 .flex_aktualita {
-
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .flex_aktualita p {
-
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 16px;
-
 }
 
 .info_aktualita {
-
   padding: 10px;
   border-radius: 10px;
   margin-top: 5px;
@@ -352,20 +326,16 @@ h1 {
   margin: auto;
   text-decoration: none;
   color: white;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   background-color: red;
-
 }
 
 .aktualita_small_info {
-
   font-size: 13px;
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
 
 .aktualita_article {
-
   width: 100%;
   max-width: 1110px;
   margin: auto;
@@ -381,147 +351,140 @@ h1 {
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
-
 }
 
 .aktualita_article:hover {
-
-  transition: all .35s ease-out;
+  transition: all 0.35s ease-out;
   background-color: #f2f2f2;
-
 }
 
 .aktualita_nadpis {
-
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   text-decoration: underline;
   font-size: 22px;
 }
 
 #aktuality_index_obr {
-
   float: right;
   margin-top: 22px;
   margin-bottom: 22px;
-
 }
 
 .mapa {
-    display: block;
-    margin: auto;
-    max-width: 1000px;
-    width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .like {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 30px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 29px;
-    position: relative;
-    top: 25px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 29px;
+  position: relative;
+  top: 25px;
 }
 
 .rodic_social {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .flex_social {
-    width: 450px;
-    margin: 23.5px;
-    border: 1.5px solid #f2f2f2;
-    border-radius: 10px;
-    padding-bottom: -10px;
-    margin: auto;
+  width: 450px;
+  margin: 23.5px;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  margin: auto;
 }
 
 #fb {
-    display: block;
+  display: block;
 }
 
 #fb_mobil {
-    display: none;
+  display: none;
 }
 
 .fb_info {
-    border: 1.5px solid #f2f2f2;
+  border: 1.5px solid #f2f2f2;
 }
 
 .fb_info h2 {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 25px;
-    text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 .fb_info p {
-    font-family: 'Signika', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    border: 1.5px solid white;
-    border-radius: 10px;
-    padding-bottom: 7px;
-    transition: all .35s ease-out;
-    margin-top: 14px;
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  padding-bottom: 7px;
+  transition: all 0.35s ease-out;
+  margin-top: 14px;
 }
 
 .fb_info p:hover {
-    font-family: 'Signika', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    border: 1.5px solid #f2f2f2;
-    border-radius: 10px;
-    padding-bottom: 7px;
-    transition: all .35s ease-out;
-    background-color: #f2f2f2;
-
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
+  padding-bottom: 7px;
+  transition: all 0.35s ease-out;
+  background-color: #f2f2f2;
 }
 
 .fb_info img {
-    display: block;
-    margin: auto;
-    margin-bottom: 18px;
-    margin-top: 9px;
-    transition: all .35s ease-out;
+  display: block;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 9px;
+  transition: all 0.35s ease-out;
 }
 
 .historie_clik_container {
-    display: block;
-    background-image: url(../img/Casova_osa_web-01.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 194px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 50px;
-    transition: all .35s ease-out;
-    text-decoration: none;
+  display: block;
+  background-image: url(../img/Casova_osa_web-01.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 194px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  transition: all 0.35s ease-out;
+  text-decoration: none;
 }
 
 .historie_clik_container:hover {
-        -webkit-box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
--moz-box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
-box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
-    transition: all .35s ease-out;
+  -webkit-box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.39);
+  box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.39);
+  transition: all 0.35s ease-out;
 }
 
 .historie_clik_container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #historie_hl {
-    font-size: 30px;
-    font-family: 'Hammersmith One', sans-serif;
-    text-align: center;
-    color: black;
-    margin-top: 5px;
+  font-size: 30px;
+  font-family: "Hammersmith One", sans-serif;
+  text-align: center;
+  color: black;
+  margin-top: 5px;
 }
 
 .collapsible {
@@ -536,138 +499,39 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   outline: none;
   font-size: 17px;
   border-radius: 10px;
-    font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #ff6666;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
- padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    margin: 5px;
-    font-family: 'Signika', sans-serif;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin: 5px;
+  font-family: "Signika", sans-serif;
 }
 
 .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .info_sv {
-
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    background-color: #f2f2f2;
-    margin-top: -40px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-
-#napis_sv {
-
-   font-family: 'Hammersmith One', sans-serif;
-    font-size: 30px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    top: 25px;
-    padding-bottom: 20px;
-    padding-top: 40px;
-
-}
-
-.obsah_sv {
-
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-    padding-bottom: 20px;
-
-}
-
-
-.predmluva_sv {
-
-    font-family: 'Signika', sans-serif;
-    margin: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 20px;
-
-}
-
-.druha_predmluva {
-
-    padding-bottom: 30px;
-
-}
-
-
-
-.rozvrhy_sport {
-
-  max-width: 1071px;
-  width: 100%;
-  margin: auto;
-  height: 655px;
-  display: table;
-  border: none;
-
-}
-
-.rozvrhy_sport_stt {
-
-  max-width: 1071px;
-  width: 100%;
-  margin: auto;
-  height: 495px;
-  display: table;
-  border: none;
-
-}
-
-.rozvrhy_sport_small {
-
-  max-width: 1071px;
-  width: 100%;
-  margin: auto;
-  height: 520px;
-  display: table;
-  border: none;
-
-}
-
-.rozvrhy_sport_ven {
-
-  max-width: 1071px;
-  width: 100%;
-  margin: auto;
-  height: 772px;
-  display: table;
-  border: none;
-
-}
-
-.rozv_back {
-
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -675,13 +539,10 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   margin-top: -40px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding-bottom: 38px;
-
 }
 
-#nadpis_rozv {
-
-  font-family: 'Hammersmith One', sans-serif;
+#napis_sv {
+  font-family: "Hammersmith One", sans-serif;
   font-size: 30px;
   margin: auto;
   display: block;
@@ -691,23 +552,98 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   top: 25px;
   padding-bottom: 20px;
   padding-top: 40px;
+}
 
+.obsah_sv {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.predmluva_sv {
+  font-family: "Signika", sans-serif;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.druha_predmluva {
+  padding-bottom: 30px;
+}
+
+.rozvrhy_sport {
+  max-width: 1071px;
+  width: 100%;
+  margin: auto;
+  height: 655px;
+  display: table;
+  border: none;
+}
+
+.rozvrhy_sport_stt {
+  max-width: 1071px;
+  width: 100%;
+  margin: auto;
+  height: 495px;
+  display: table;
+  border: none;
+}
+
+.rozvrhy_sport_small {
+  max-width: 1071px;
+  width: 100%;
+  margin: auto;
+  height: 520px;
+  display: table;
+  border: none;
+}
+
+.rozvrhy_sport_ven {
+  max-width: 1071px;
+  width: 100%;
+  margin: auto;
+  height: 772px;
+  display: table;
+  border: none;
+}
+
+.rozv_back {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  margin-top: -40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 38px;
+}
+
+#nadpis_rozv {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  top: 25px;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 .predmluva_rozv {
-
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   margin: 10px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 20px;
   text-align: center;
-
 }
 
 #podnadpis_rozv_big {
-
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -717,12 +653,10 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   top: 25px;
   padding-bottom: 20px;
   padding-top: 40px;
-
 }
 
 #podnadpis_rozv_small {
-
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -732,12 +666,10 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   top: 25px;
   padding-bottom: 20px;
   padding-top: 40px;
-
 }
 
 #podnadpis_rozv_ven {
-
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -747,12 +679,10 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   top: 25px;
   padding-bottom: 20px;
   padding-top: 40px;
-
 }
 
 #podnadpis_rozv_stt {
-
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -762,12 +692,10 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   top: 25px;
   padding-bottom: 20px;
   padding-top: 40px;
-
 }
 
 .podnadpis_areal {
-
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -778,75 +706,57 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   padding-top: 10px;
   text-decoration: underline;
   border: 2px solid transparent;
-
 }
 
 .obsah_areal {
-
   max-width: 1200px;
   width: 100%;
   margin: auto;
-
 }
 
 .obsah_areal ul {
-
   max-width: 800px;
   margin: auto;
   text-align: center;
   list-style-type: none;
   padding: 0px;
-
 }
 
 .obsah_areal p {
-
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   margin: 10px 0px;
   font-size: 17px;
-
 }
 
 .obsah_areal span {
-
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 12px;
-
 }
 
 .obsah_areal li {
-
   background-color: #f2f2f2;
   border-radius: 30px;
   padding-bottom: 29px;
   margin-top: 26px;
   border: 2px solid transparent;
-
 }
 
 .obsah_areal li:hover {
-
   border: 2px solid red;
-  transition: all .35s ease-out;
-
+  transition: all 0.35s ease-out;
 }
 
 .img_detail {
-
   border: 2px solid transparent;
   border-radius: 10px;
-
 }
 
 .fotka_areal {
-
   display: table;
   margin: auto;
-
 }
 
-.index_akce_article{
-
+.index_akce_article {
   display: block;
   margin: 18px;
   width: 200px;
@@ -857,31 +767,24 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   transition: box-shadow 0.5s ease-in-out;
-
-
 }
 
-.index_akce_article:hover{
-
-  -webkit-box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
-  -moz-box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
-  box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.34);
+.index_akce_article:hover {
+  -webkit-box-shadow: 0px 10px 21px -2px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 10px 21px -2px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 10px 21px -2px rgba(0, 0, 0, 0.34);
   transition: 0.3s ease-in-out;
-
 }
 
-.flex_akce{
-
+.flex_akce {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-.mesic_slovy{
-
+.mesic_slovy {
   color: white;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   text-align: center;
   font-size: 22px;
   margin: auto;
@@ -889,11 +792,9 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
-
 }
 
-.cislo_dne_akce{
-
+.cislo_dne_akce {
   text-align: center;
   background-color: white;
   width: 160px;
@@ -903,238 +804,213 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   border-bottom-left-radius: 10px;
   font-size: 35px;
   color: black;
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
 
-.index_akce_nazev{
-
+.index_akce_nazev {
   margin: 12px;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   color: black;
   text-align: center;
-
 }
 
-.male_info_akce{
-
+.male_info_akce {
   text-align: center;
   color: black;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 14px;
   position: absolute;
   bottom: 0px;
   left: 20px;
   text-decoration: underline;
-
 }
 
-.zadne_akce_p{
-
+.zadne_akce_p {
   text-align: center;
   max-width: 1200px;
   width: 100%;
   margin-bottom: 40px;
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------------------- PATICKA -------------------------------------------------*/
 
 .paticka {
-    width: 100%;
-    background-color: #666666;
-    margin: 0px;
-    margin-top: 27px;
+  width: 100%;
+  background-color: #666666;
+  margin: 0px;
+  margin-top: 27px;
 }
 
 .sponzori {
-    max-width: 1371px;
-    width: fit-content;
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
+  max-width: 1371px;
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .paticka_sponzor img {
-    margin: 10px;
+  margin: 10px;
 }
 
 .paticka_sponzor a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .paticka_sponzor h2 {
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-family: 'Signika', sans-serif;
-    font-size: 22px;
-    color: white;
-    margin-bottom: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .paticka_sponzor {
-    position: relative;
-    top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .plzen_sponzor h2 {
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 22px;
-    color: white;
-    margin-bottom: 10px;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .rodic_paticka {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 50px;
-    max-width: 1357px;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1357px;
+  width: 100%;
 }
 
 .flex_paticka {
-    max-width: 250px;
-    width: 100%;
-    border-radius: 10px;
-    padding-bottom: -10px;
-    display: block;
-    margin: auto;
-    margin-top: 0px;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  display: block;
+  margin: auto;
+  margin-top: 0px;
 }
 
 .plzen {
-    display: table;
-    font-family: 'Signika', sans-serif;
-    font-size: 15px;
-    color: white;
-    margin: auto;
-    text-align: center;
+  display: table;
+  font-family: "Signika", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: auto;
+  text-align: center;
 }
 
 .rozvrhy h2 {
-    text-align: left;
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 18px;
-    color: white;
+  text-align: left;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 18px;
+  color: white;
 }
 
 .rozvrhy a {
-    text-align: left;
-    display: table;
-    font-family: 'Signika', sans-serif;
-    font-size: 12px;
-    color: white;
-    text-decoration: none;
+  text-align: left;
+  display: table;
+  font-family: "Signika", sans-serif;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
 }
 
 .rozvrhy a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .kontakt h2 {
-    text-align: left;
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 18px;
-    color: white;
+  text-align: left;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 18px;
+  color: white;
 }
 
 .kontakt p {
-    text-align: left;
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 14px;
-    color: white;
+  text-align: left;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 14px;
+  color: white;
 }
 
 .kontakt a {
-    text-align: left;
-    display: table;
-    font-family: 'Signika', sans-serif;
-    font-size: 14px;
-    color: white;
-    text-decoration: underline;
+  text-align: left;
+  display: table;
+  font-family: "Signika", sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: underline;
 }
 
 .kontakt a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #konec {
-    text-align: center;
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 14px;
-    color: white;
-    margin-top: 36px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-top: 36px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 #konec a {
-    color: white;
+  color: white;
 }
 
 #konec a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-
 .navigation_burger {
-    display: none;
+  display: none;
 }
 
 #menuToggle {
-    display: none;
+  display: none;
 }
 
-
-
 .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
 
 #akce_datum {
-
   border: none;
   float: left;
   display: table;
@@ -1143,27 +1019,21 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   margin-right: 16px;
   background-color: red;
   color: white;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   text-align: center;
-
 }
 
 .akce_article {
-
   display: block;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   color: #686868;
-
 }
 
 .akce_nadpis {
-
   margin: 28px 0;
-
 }
 
 .inputs_aktuality {
-
   text-align: center;
   padding: 14px 0px;
   background-color: #f2f2f2;
@@ -1172,44 +1042,38 @@ box-shadow: inset 0px 0px 45px -3px rgba(0,0,0,0.39);
   border-bottom: 3px solid red;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
 }
 
-.inputs_aktuality input, select {
-
+.inputs_aktuality input,
+select {
   width: 160px;
   height: 33px;
   font-size: 15px;
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
 
 .form_filter {
-
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
 
 #dulezite_img {
-
   width: 36px;
   position: relative;
   top: 12px;
   margin-right: 8px;
-
 }
 
 #dulezite_div {
-
   display: table;
   margin-top: 33px;
-
 }
 
 #dulezite_div p {
-
   display: inline-block;
   color: red;
+}
 
-
+.rezervace_nav {
+  background-color: white;
+  color: red;
 }

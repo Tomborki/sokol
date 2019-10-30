@@ -1,118 +1,114 @@
-
 #oddil_napis {
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 30px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    margin-top: 30px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
 }
 
 #info {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    background-color: #f2f2f2;
-    padding: 30px;
-    position: relative;
-    top: -40px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-size: 18px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding: 30px;
+  position: relative;
+  top: -40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 18px;
 }
 
 p {
-   font-family: 'Signika', sans-serif;
-    margin: 10px;
+  font-family: "Signika", sans-serif;
+  margin: 10px;
 }
 
 .vypletani_container {
-    background-image: url(../img/vyplet.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0,0,0,0.52);
-    margin-top: 56px;
-    padding-top: 1px;
-    padding-bottom: 40px;
+  background-image: url(../img/vyplet.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0, 0, 0, 0.52);
+  margin-top: 56px;
+  padding-top: 1px;
+  padding-bottom: 40px;
 }
-
 
 .rodic_social_oddil {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-
 .flex_social_oddil {
-    width: 500px;
-    min-height: 500px;
-    height: 100%;
-    margin: 23.5px;
-    border-radius: 10px;
-    padding-bottom: -10px;
-    margin: auto;
-    font-size: 22px;
-    text-align: center;
-    background-color: white;
-    color: black;
+  width: 500px;
+  min-height: 500px;
+  height: 100%;
+  margin: 23.5px;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  background-color: white;
+  color: black;
 }
 
 .fb_bad {
-    background-color: transparent;
-    border-radius: 0px;
+  background-color: transparent;
+  border-radius: 0px;
 }
 
-
 #rezervace {
-    display: block;
-    font-family: 'Signika', sans-serif;
-    font-size: 28px;
-    color: red;
-    background-color: transparent;
-    height: 51px;
-    width: 220px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    line-height: 51px;
-    margin: 44px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1.5px solid red;
-    transition: all .35s ease-out;
+  display: block;
+  font-family: "Signika", sans-serif;
+  font-size: 28px;
+  color: red;
+  background-color: transparent;
+  height: 51px;
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 51px;
+  margin: 44px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1.5px solid red;
+  transition: all 0.35s ease-out;
 }
 
 #rezervace:hover {
-    border: 1.5px solid #FF8B8B;
-    transition: all .35s ease-out;
-    background-color: red;
-    color: white;
+  border: 1.5px solid #ff8b8b;
+  transition: all 0.35s ease-out;
+  background-color: red;
+  color: white;
 }
 
 .flex_social_oddil img {
-    display: block;
-    margin: auto;
-    margin-bottom: 18px;
-    margin-top: 9px;
-    transition: all .35s ease-out;
+  display: block;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 9px;
+  transition: all 0.35s ease-out;
 }
 
 .social_container_oddil {
-    background-image: url(../img/DSC_0012.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0,0,0,0.52);
-    filter: blur(0.2);
-    padding-top: 1px;
-    padding-bottom: 40px;
-    color: white;
+  background-image: url(../img/DSC_0012.JPG);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0, 0, 0, 0.52);
+  filter: blur(0.2);
+  padding-top: 1px;
+  padding-bottom: 40px;
+  color: white;
 }
 
 .social_container_oddil_volejbal {
@@ -120,15 +116,15 @@ p {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0,0,0,0.52);
+  -webkit-box-shadow: inset 0px 0px 155px -33px rgba(0, 0, 0, 0.52);
   filter: blur(0.2);
-    padding-top: 1px;
-    padding-bottom: 40px;
-    color: white;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  color: white;
 }
 
 .social_container_oddil_volejbal h3 {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 25px;
   margin: auto;
   display: block;
@@ -137,94 +133,106 @@ p {
 }
 
 .flex_social_oddil_volej {
-    width: 500px;
-    min-height: 500px;
-    height: 100%;
-    margin: 23.5px;
-    border-radius: 10px;
-    padding-bottom: -10px;
-    margin: auto;
-    font-size: 22px;
-    text-align: center;
+  width: 500px;
+  height: 175px;
+  margin: 23.5px;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
 }
 
 .foto_container_volej {
-
-    margin-top: 56px;
-    padding-top: 1px;
-    padding-bottom: 40px;
-    max-width: 1200px;
-    width: 99%;
-    margin: auto;
-    text-align: center;
-
+  margin-top: 56px;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  width: 99%;
+  margin: auto;
+  text-align: center;
 }
 
-.foto_volej{
-
+.foto_volej {
   width: 400px;
   margin: 5px;
-
 }
 
 @media screen and (max-width: 435px) {
-
-  .foto_volej{
+  .foto_volej {
     width: 250px;
     margin: 5px;
   }
-
 }
 
 .rodic_social_osob {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-
 .flex_social_osob {
-    width: 500px;
-    margin: 23.5px;
-    border-radius: 10px;
-    padding-bottom: -10px;
-    margin: auto;
-    margin-top: 0px;
-    font-size: 15px;
-    text-align: center;
-    background-color: white;
+  width: 500px;
+  margin: 23.5px;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
 }
 
 .foto_osob {
-    float: left;
-    margin: 5px;
+  float: left;
+  margin: 5px;
 }
 
 .osobnost {
-        border: 1.5px solid #f2f2f2;
-    border-radius: 10px;
-    margin-top: 23px;
-    background-color: #f2f2f2;
-    transition: all .35s ease-out;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
+  margin-top: 23px;
+  background-color: #f2f2f2;
+  transition: all 0.35s ease-out;
 }
 
 .osobnost:hover {
-    border: 1.5px solid black;
-    transition: all .35s ease-out;
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
 }
 
 @media screen and (max-width: 1276px) {
-    #info {
-        padding: 0px;
-        padding-top: 30px;
-    }
+  #info {
+    padding: 0px;
+    padding-top: 30px;
+  }
 }
 
 @media screen and (max-width: 1016px) {
-    #info {
-        padding-top: 1px;
-    }
+  #info {
+    padding-top: 1px;
+  }
+}
+
+.tabulka_volej_tlacitko {
+  background-color: red;
+  color: white;
+  padding: 10px 17px;
+  position: relative;
+  top: 53px;
+  font-size: 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Signika", sans-serif;
+  -webkit-box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.19);
+  transition: background-color 0.3s;
+}
+
+.tabulka_volej_tlacitko:hover {
+  background-color: rgb(168, 0, 0);
 }
