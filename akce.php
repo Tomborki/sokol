@@ -166,6 +166,9 @@
                   $rozdeleny_kalendar = explode("-", $jeden_den);
                   if($rozdeleny_akce[0] == $rozdeleny_kalendar[0] AND $rozdeleny_akce[1] == $rozdeleny_kalendar[1] AND $rozdeleny_akce[2] == $rozdeleny_kalendar[2]){
                     echo "<a href='akce_detail.php?akce=" . $rozdeleny_akce[3] . "' class='den_akce_v_kalendari'>" . $den_v_mesici[2] . "</a>";
+                    if($den_v_mesici[3] == "Sun"){
+                      echo "</tr>";
+                      }
                     continue 2;
                   }
                 }

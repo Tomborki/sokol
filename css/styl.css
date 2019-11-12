@@ -1150,3 +1150,11 @@ select {
   margin: auto;
   display: table;
 }
+
+.nic_v_akci {
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  display: table;
+  padding-bottom: 30px;
+  margin: auto;
+}

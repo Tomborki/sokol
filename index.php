@@ -31,7 +31,7 @@
                 <h2 id="sport"> Pojď si zasportovat... </h2>
                 <section class="rodic_sport">
       	             <a class="sporty badminton" href="oddil_badminton.php">    </a>
-      	             <a class="sporty nohejbal" href="oddil_nohejbal.php">    </a>
+      	             <a class="sporty nohejbal" taget="_blank" href="http://doubravka-nohejbal.blog.cz/">    </a>
       	             <a class="sporty ping" href="oddil_stolnitenis.php">    </a>
                      <a class="sporty volejbal" href="oddil_volejbal.php">    </a>
 

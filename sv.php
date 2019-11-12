@@ -55,7 +55,7 @@
             </div>
 
 
-          <button class="collapsible">Pohybové a míčové hry - žactvo</button>
+          <button class="collapsible">Sportnovní a míčové hry</button>
             <div class="content">
 
               <?php sokolska_vsestrannost($conn, "pohyb_mic_hry_zactvo") ?>
@@ -71,7 +71,7 @@
             </div>
 
 
-          <button class="collapsible">Sportovní gymnastika - žactvo</button>
+          <button class="collapsible">Sportovní gymnastika</button>
             <div class="content">
 
               <?php sokolska_vsestrannost($conn, "sport_gym") ?>
@@ -79,18 +79,17 @@
             </div>
 
 
-          <button class="collapsible">Aerobik</button>
-            <div class="content">
-
-              <?php sokolska_vsestrannost($conn, "aerobic") ?>
-
-            </div>
-
-
-          <button class="collapsible">Bodyform - balance</button>
+          <button class="collapsible">Bodyform</button>
             <div class="content">
 
               <?php sokolska_vsestrannost($conn, "bodyform") ?>
+
+            </div>
+
+          <button class="collapsible">Jóga</button>
+            <div class="content">
+
+              <?php sokolska_vsestrannost($conn, "joga") ?>
 
             </div>
 
@@ -103,14 +102,6 @@
             </div>
 
 
-          <button class="collapsible">Muži</button>
-            <div class="content">
-
-              <?php sokolska_vsestrannost($conn, "muzi") ?>
-
-            </div>
-
-
           <button class="collapsible">Senioři</button>
             <div class="content">
 
@@ -119,12 +110,7 @@
             </div>
 
 
-          <button class="collapsible">Jóga</button>
-            <div class="content">
 
-              <?php sokolska_vsestrannost($conn, "joga") ?>
-
-            </div>
 
 
           </div>
@@ -144,6 +130,13 @@
                   </div>
                   <a class="info_aktualita" href="aktuality.php"> Zobrazit další aktuality </a>
           </div>
+
+          <div class="container_bad">
+                   <h2 id="kde">Členské příspěvky – sokolská všestrannost</h2>
+                   <div class="tlacitka_container"> 
+                   <a class="container_button" href="doc/prispevky.pdf"> Příspěvky </a>
+                   </div>
+            </div>
 
 
 

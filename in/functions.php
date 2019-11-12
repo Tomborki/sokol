@@ -113,6 +113,8 @@
      $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' AND datum <= '$datumOMesic' ORDER BY datum";
      $result = mysqli_query($conn, $sql);
 
+     if (mysqli_num_rows($result) > 0) {
+
               while($row = mysqli_fetch_assoc($result)) {
 
                 $id_akce = $row["id"];
@@ -172,6 +174,10 @@
 
             }
 
+          } else {
+            echo "<p class='nic_v_akci'>V nejbližších 30 dnech se nepořádá žádná akce... :(<br>Koukněte se na všehny budoucí akce </p> ";
+        }
+
     }
 
 
@@ -192,6 +198,8 @@
 
          $sql = "SELECT id, nazev, datum FROM akce WHERE datum >= '$dneska' ORDER BY datum";
          $result = mysqli_query($conn, $sql);
+
+         if (mysqli_num_rows($result) > 0) {
 
                   while($row = mysqli_fetch_assoc($result)) {
 
@@ -251,6 +259,11 @@
                       echo "</a>";
 
                 }
+
+
+              } else {
+                echo "<p class='nic_v_akci'>Bohužel momentálně není naplánovaná žádná akce</p> ";
+            }
 
         }
 

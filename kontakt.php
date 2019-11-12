@@ -99,7 +99,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Badminton</p>
-              <img class="avatar" src="img/avatars/avatar_5.png" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Brychta Jaromír</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420605754747"><p class="cislo_kontakt_odd">605 754 747</p></a>
@@ -181,7 +181,7 @@
 
             <div class="person_odd_flex">
 
-              <p class="funkce_kontakt_odd">Náčelnice</p>
+              <p class="funkce_kontakt_odd">Náčelnice SV</p>
               <img class="avatar" src="img/avatars/avatar_11.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Štichová Miroslava</p>
               <img src="img/tel_icon.png">
@@ -206,7 +206,7 @@
             <div class="person_odd_flex">
 
               <p class="funkce_kontakt_odd">Správce objektu</p>
-              <img class="avatar" src="img/avatar" alt="avatar" width="50%">
+              <img class="avatar" src="img/avatars/avatar.png" alt="avatar" width="50%">
               <p class="jmeno_kontakt_odd">Toman Zdeněk</p>
               <img src="img/tel_icon.png">
               <a href="tel:+420603816662"><p class="cislo_kontakt_odd">603 816 662</p></a>

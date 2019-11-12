@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /in
+Disallow: /img
+Disallow: /doc
+Disallow: /lightbox
+Disallow: /style
+Sitemap: http://sokoldoubravkabeta.webzdarma.cz/sitemap.xml     <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->
+
