@@ -596,6 +596,9 @@ function vypis_akce_stranka($conn, $id_akce){
            $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC";
            $result = mysqli_query($conn, $sql);
 
+
+           if (mysqli_num_rows($result) > 0) {
+
               while($row = mysqli_fetch_assoc($result)) {
 
                 $id_aktuality = $row["id"];
@@ -631,6 +634,10 @@ function vypis_akce_stranka($conn, $id_akce){
                   echo "</a>";
 
                    }
+                    
+            } else {
+                echo "<p style='display: block; margin: auto; margin-bottom: 20px;'>Bohužel tady není žádná aktualita :(</p>";
+            }
 
       }
 

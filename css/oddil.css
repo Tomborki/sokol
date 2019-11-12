@@ -22,7 +22,8 @@
 
 p {
   font-family: "Signika", sans-serif;
-  margin: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .vypletani_container {
@@ -165,49 +166,11 @@ p {
   }
 }
 
-.rodic_social_osob {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  width: 100%;
-  margin: auto;
-  margin-top: 50px;
-}
-
-.flex_social_osob {
-  width: 500px;
-  margin: 23.5px;
-  border-radius: 10px;
-  padding-bottom: -10px;
-  margin: auto;
-  margin-top: 0px;
-  font-size: 15px;
-  text-align: center;
-  background-color: white;
-}
-
-.foto_osob {
-  float: left;
-  margin: 5px;
-}
-
-.osobnost {
-  border: 1.5px solid #f2f2f2;
-  border-radius: 10px;
-  margin-top: 23px;
-  background-color: #f2f2f2;
-  transition: all 0.35s ease-out;
-}
-
-.osobnost:hover {
-  border: 1.5px solid black;
-  transition: all 0.35s ease-out;
-}
-
 @media screen and (max-width: 1276px) {
   #info {
     padding: 0px;
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -235,4 +198,8 @@ p {
 
 .tabulka_volej_tlacitko:hover {
   background-color: rgb(168, 0, 0);
+}
+
+.stolni_tenis_foto {
+  background-image: url(../img/sokol_53.jpg);
 }

@@ -1077,3 +1077,76 @@ select {
   background-color: white;
   color: red;
 }
+
+.rodic_social_osob {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.flex_social_osob {
+  width: 500px;
+  margin: 23.5px;
+  border-radius: 10px;
+  padding-bottom: -10px;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.foto_osob {
+  float: left;
+  margin: 5px;
+}
+
+.osobnost {
+  border: 1.5px solid #f2f2f2;
+  border-radius: 10px;
+  margin-top: 23px;
+  background-color: #f2f2f2;
+  transition: all 0.35s ease-out;
+}
+
+.osobnost:hover {
+  border: 1.5px solid black;
+  transition: all 0.35s ease-out;
+}
+
+.container_bad {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.container_button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Signika", sans-serif;
+  background-color: red;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.tlacitka_container {
+  margin: auto;
+  display: table;
+}

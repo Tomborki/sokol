@@ -36,6 +36,7 @@
                         <option value="badminton">Badminton</option>
                         <option value="sokolská všesrannost">Sokolská všestrannost</option>
                         <option value="volejbal">Volejbal</option>
+                        <option value="stolni_tenis">Stolní tenis</option>
                   </select><br>
 
                   <label for="nazev">Po kliknutí přesměrovat na: </label>

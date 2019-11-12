@@ -21,7 +21,7 @@
 
 
           <div class="ikony">
-                <h2 id="sport"> Pojď si zasportovat... </h2>
+                <h2 id="sport"> Naše sportovní oddíly </h2>
                 <section class="rodic_sport">
       	             <a class="sporty badminton" href="oddil_badminton.php">    </a>
       	             <a class="sporty nohejbal" href="oddil_nohejbal.php">    </a>
