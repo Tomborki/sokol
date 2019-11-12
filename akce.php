@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sokol Doubravka</title>
+
+    <?php require_once("meta.php"); ?>
+
     <link href="css/12cols.css" rel="stylesheet">
     <link href="css/styl.css" rel="stylesheet">
     <link href="css/aktualita_detail.css" rel="stylesheet">
@@ -15,7 +15,7 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
     <link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
 
-<link rel="icon" href="img/favicon-sokol.png" sizes="20x20">
+
 
     </head>
 
