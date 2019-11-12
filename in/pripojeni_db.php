@@ -1,6 +1,6 @@
 <?php
 
-
+/*
 
   $servername = "localhost";
   $username = "root";
@@ -8,13 +8,13 @@
   $dbname = "sokoldoubrav6618";
 
 
-/*
+*/
 
   $servername = "sql2.webzdarma.cz";
   $username = "sokoldoubrav6618";
   $password = "Slhbcgt";
   $dbname = "sokoldoubrav6618";
-*/
+
 
 
   // Create connection
