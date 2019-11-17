@@ -56,6 +56,7 @@
                <a href="sv.php"> Sokolská všestrannost </a>
                <a href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview"> Rezervace </a>
                <a href="historie.php"> Historie </a>
+               <a href="rezervace_info.php">Informace - rezervace</a>
                <a target="_blank" href="doc/GDPR-SokolDoubravka.pdf">GDPR</a>
                <a href="in/index.php"> Redakční systém </a>
 

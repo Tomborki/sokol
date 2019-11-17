@@ -21,18 +21,7 @@
 
 
 
-
-
- <iframe src="//www.rajce.net/a15034680/mini?bgcolor=&photoNameVisible=0" name="rajce-net" width="356" height="356" frameborder="0" scrolling="no" allowtransparency="false"></iframe>
-
-
-
-
-
-
-
-
-
+        <h2 style="text-align:center; font-size: 30px; margin: 50px;font-family: 'Signika', sans-serif;">Na této stránce se ještě dělá ... <br> Vrať se sem později ;)</h2>
 
 
 

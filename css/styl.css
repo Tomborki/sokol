@@ -1158,3 +1158,13 @@ select {
   padding-bottom: 30px;
   margin: auto;
 }
+
+.info_rezerv {
+  font-family: "Signika", sans-serif;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  font-size: 18px;
+}

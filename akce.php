@@ -56,13 +56,13 @@
                     break;
                 case "08":
                     echo "Srpen";
-                    continue;
+                    break;
                 case "09":
                     echo "Září";
-                    continue;
+                    break;
                 case "10":
                     echo "Říjen";
-                    continue;
+                    break;
                 case "11":
                     echo "Listopad";
                     break;

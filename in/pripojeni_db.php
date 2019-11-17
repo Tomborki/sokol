@@ -7,13 +7,12 @@
   $password = "";
   $dbname = "sokoldoubrav6618";
 
-
 */
 
-  $servername = "sql2.webzdarma.cz";
-  $username = "sokoldoubrav6618";
-  $password = "Slhbcgt";
-  $dbname = "sokoldoubrav6618";
+$servername = "wm136.wedos.net";
+$username = "w28521_new";
+$password = "Tomborki26010*";
+$dbname = "d28521_new";
 
 
 

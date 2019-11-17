@@ -21,8 +21,8 @@
 
 
 
-          <div class="ikony">
-                <h2 id="sport"> Naše sportovní oddíly </h2>
+          <div class="ikony" style="margin-top: -90px;">
+                <h2 id="sport" style="padding-top: 90px"> Naše sportovní oddíly </h2>
                 <section class="rodic_sport">
       	             <a class="sporty badminton" href="oddil_badminton.php">    </a>
       	             <a class="sporty nohejbal" taget="_blank" href="http://doubravka-nohejbal.blog.cz/">    </a>

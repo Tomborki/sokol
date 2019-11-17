@@ -34,6 +34,7 @@
                   <option value="badminton">Badminton</option>
                   <option value="sokolská všesrannost">Sokolská všestrannost</option>
                   <option value="volejbal">Volejbal</option>
+                  <option value="stolni_tenis">Stolní tenis</option>
             </select>
             <label for="od">Časové období od: </label>
             <input type="date" name="od" value="value=">

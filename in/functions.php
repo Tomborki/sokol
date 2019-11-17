@@ -144,13 +144,13 @@
                         break;
                     case "08":
                         $datum_mesic_slovy = "Srpen";
-                        continue;
+                        break;
                     case "09":
                         $datum_mesic_slovy = "Září";
-                        continue;
+                        break;
                     case "10":
                         $datum_mesic_slovy = "Říjen";
-                        continue;
+                        break;
                     case "11":
                         $datum_mesic_slovy = "Listopad";
                         break;
@@ -230,13 +230,13 @@
                             break;
                         case "08":
                             $datum_mesic_slovy = "Srpen";
-                            continue;
+                            break;
                         case "09":
                             $datum_mesic_slovy = "Září";
-                            continue;
+                            break;
                         case "10":
                             $datum_mesic_slovy = "Říjen";
-                            continue;
+                            break;
                         case "11":
                             $datum_mesic_slovy = "Listopad";
                             break;
@@ -427,6 +427,11 @@ function vypis_akce_stranka($conn, $id_akce){
            $datum = $prevod_datum[2] . "." . $prevod_datum[1] . "." . $prevod_datum[0];
            $casOd = $row["casOd"];
            $casDo = $row["casDo"];
+           if($casDo == ""){
+             $cas = $casOd;
+           } else{
+             $cas = $casOd . " - " . $casDo;
+           }
            $misto = $row["misto"];
            $obsah = $row["obsah"];
            $url_misto = $row["url_misto"];
@@ -434,7 +439,7 @@ function vypis_akce_stranka($conn, $id_akce){
            echo '<div class="info_akce_detail">';
            echo "<h3>" . $nazev ."</h3>";
            echo "<p><img src='img/calendar-with-a-clock-time-tools.svg' alt='kalendář'>" . $datum . "</p>";
-           echo "<p><img src='img/passage-of-time.svg' alt='čas'>" . $casOd . " - " . $casDo . "</p>";
+           echo "<p><img src='img/passage-of-time.svg' alt='čas'>" . $cas . "</p>";
            echo "<p><img src='img/facebook-placeholder-for-locate-places-on-maps.svg' alt='místo'>" . $misto . "</p>";
            if($url_misto != ""){
              echo "<p><a href='" . $url_misto . "' target='_blank'>Zobrazit na mapě</a></p>";
@@ -725,7 +730,7 @@ function vypis_akce_stranka($conn, $id_akce){
 
       }
 
-
+// ----------------------------------------------------------------------------------------------
 
 
 
