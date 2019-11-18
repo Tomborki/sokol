@@ -128,10 +128,10 @@
           <p>Celodenní provoz kuchyně</p></p>
           <p>Salónek pro 40 osob</p>
           <p>Terasa pro 25 osob</p>
-          <p>Tel.:377 423 737</p>
+          <p>Prozovní - Daniel Starý (+420 731 537 328)</p>
           <div class="fotka_areal">
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="res" data-title="Restaurace U Havránka"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
-            <a href="img/areal/original/sokol_XX.JPG" data-lightbox="res" data-title="Restaurace U Havránka"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_XX.JPG"></a>
+            <a href="img/areal/original/havran_1.jpg" data-lightbox="res" data-title="Restaurace U Havránka"><img class="img_detail img_klikatelne" src="img/areal/havran_tn_1.jpg"></a>
+            <a href="img/areal/original/havran_2.jpg" data-lightbox="res" data-title="Restaurace U Havránka"><img class="img_detail img_klikatelne" src="img/areal/havran_tn_2.jpg"></a>
           </div>
         </li>
       </ul>

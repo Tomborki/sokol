@@ -14,6 +14,7 @@
        <a href="http://www.ktatechnika.cz/" target="_blank"> <img src="img/sponzor/kta.jpg"> </a>
        <a href="http://www.lekarnanaslovanske.cz/" target="_blank"> <img src="img/sponzor/lekarna_na_slovanske.png"> </a>
        <a href="http://www.nsm.cz/home/" target="_blank"> <img src="img/sponzor/nadace_sportujici_mladeze.png"> </a>
+       <a href="http://www.transportbeton.cz/" target="_blank"> <img src="img/sponzor/tga-plzen.jpg"> </a>
         </div>
     </div>
   <div class="paticka_container">
@@ -28,10 +29,11 @@
               Hřbitovní 24<br>
               312 16, Plzeň<br>
               <a href="https://www.google.cz/maps/place/T%C4%9Blocvi%C4%8Dn%C3%A1+jednota+Sokol+Plze%C5%88+-+Doubravka/@49.7552646,13.4240928,17z/data=!3m1!4b1!4m5!3m4!1s0x470af04afac2d239:0x135804b4242cac6f!8m2!3d49.7552612!4d13.4262815">(ukázat na mapě)</a>
-              <br> <a href="http://www.sokoldoubravka.cz/index.php" target="_blank"> Staré stránky </a> </p>
+              <br> </p>
              <h2> Kontakt </h2>
               <p>tel. 602 169 692<br>
               e-mail: miladanovakova@centrum.cz</p>
+              <a href="http://www.sokoldoubravka.cz/old/" target="_blank"> Staré stránky </a> 
          </article>
            <article class="flex_paticka rozvrhy">
                <h2> Rozvrhy dloudobých pronájmů </h2>
@@ -63,7 +65,7 @@
           </article>
 
       </section>
-      <p id="konec"> ©<?php echo date("Y") ?>  T. J. Sokol Plzeň - Doubravka<br> Vytvořil <a href="index.php"> Tomáš Borkovec </a> </p>
+      <p id="konec"> ©<?php echo date("Y") ?>  T. J. Sokol Plzeň - Doubravka<br> Vytvořil <a target="_blank" href="https://www.linkedin.com/in/tomáš-borkovec-b89087157"> Tomáš Borkovec </a> </p>
     </div>
 </footer>
 

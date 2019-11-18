@@ -215,6 +215,18 @@
 
             </div>
 
+            <div class="person_odd_flex">
+
+              <p class="funkce_kontakt_odd">Restaurace U Havránků</p>
+              <img class="avatar" src="img/avatars/avatar.png" alt="avatar" width="50%">
+              <p class="jmeno_kontakt_odd">Daniel Starý</p>
+              <img src="img/tel_icon.png">
+              <a href="tel:+420731537328"><p class="cislo_kontakt_odd">731 537 328</p></a>
+              <img src="img/obalka_icon.png" alt="obálka">
+              <p class="email_kontakt_odd">-</p>
+
+              </div>
+
           </div>
 
 
