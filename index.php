@@ -10,6 +10,7 @@
     <link href="css/media_520px.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charm:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="swiper-4.3.3/dist/css/swiper.min.css">
 
 
@@ -25,6 +26,16 @@
 
 
               </div>
+
+
+            <div id="pf">
+              <div class="text_pf">
+                <h2>PF 2020</h2>
+                <h3>Výbor Tělocvičné jednoty Sokol Plzeň - Doubravka přeje všem členům, přátelům a příznivcům T. J. pohodové Vánoce a do nového roku hodně zdraví, sil, štěstí a chuti do aktivního života.</h3>
+                <img src="img/stars.jpg" alt="hvezdy">
+              </div>
+            </div>
+
 
 
             <div class="ikony">

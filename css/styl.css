@@ -595,7 +595,7 @@ h1 {
   max-width: 1071px;
   width: 100%;
   margin: auto;
-  height: 520px;
+  height: 616px;
   display: table;
   border: none;
 }
@@ -1167,4 +1167,33 @@ select {
   display: block;
   margin-top: 50px;
   font-size: 18px;
+}
+
+#pf {
+  background: red;
+  padding: 20px 10px;
+  font-family: "Charm", cursive;
+  text-align: center;
+}
+
+#pf .text_pf {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#pf h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+#pf h3 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+#pf img {
+  width: 200px;
+  margin: 10px;
 }

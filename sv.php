@@ -124,7 +124,7 @@
 
                      require_once("in/functions.php");
 
-                     select_aktuality_podle_kategorie($conn, "sokolská všesrannost");
+                     select_aktuality_podle_kategorie($conn, "sokolská všestrannost");
 
                     ?>
                   </div>

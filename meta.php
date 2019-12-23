@@ -6,15 +6,15 @@
     <title>T. J. Sokol Doubravka | Pojď si k nám zahrát!</title>
     <meta name="description" content="Pojď si u nás zahrát badminton, stolní tenis, volejbal a mnoho dalších... "/>
     <meta property="og:title" content="T. J. Sokol Doubravka | Pojď si k nám zahrát!" />
-    <meta property="og:type" content="sport" />
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sokol Doubravka" />
-    <meta property="og:description" content="Nejlepší místo na sport!" /> 
+    <meta property="og:description" content="Pojď si u nás zahrát badminton, stolní tenis, volejbal a mnoho dalších... " /> 
     <meta property="og:url" content="http://sokoldoubravka.cz" />         <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->
-    <meta property="og:image" content="http://sokoldoubravka.cz/img/DSC_0023.jpg" />     <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->
-    <meta property="og:street-address" content="Hřbitovní 24" />
-    <meta property="og:locality" content="Plzeň - 4" />
-    <meta property="og:postal-code" content="312 00" />
-    <meta property="og:country-name" content="Česká republika" /> 
+    <meta property="og:image" content="http://sokoldoubravka.cz/img/social-cover.jpg" />     <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->
+    <meta name="og:street-address" content="Hřbitovní 24" />
+    <meta name="og:locality" content="Plzeň - 4" />
+    <meta name="og:postal-code" content="312 00" />
+    <meta name="og:country-name" content="Česká republika" /> 
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -27,4 +27,4 @@
     <meta name="twitter:description" content="Pojď si u nás zahrát badminton, stolní tenis, volejbal a mnoho dalších... ">
     <meta name="twitter:creator" content="@author_handle">
     <meta name="theme-color" content="#ff0000" />
-    <meta name="twitter:image" content="http://sokoldoubravka.cz/img/DSC_0023.jpg">         <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->
+    <meta name="twitter:image" content="http://sokoldoubravka.cz/img/social-cover.jpg">         <!-- MUSIM UPRAVIT AZ TO DAM NA HOSTING -->

@@ -92,13 +92,14 @@
         </li>
         <li>
           <h2 class="podnadpis_areal">Dětské hřiště</h2>
-          <p>kopeček s klouzačkou</p>
-          <p>lavičky</p></p>
-          <p>houpačka</p>
-          <p>trojkladinka</p>
-          <p>doskočišitě na skok daleký</p>
-          <p>gorodky</p>
-          <p>ohniště</p>
+          <p>Kopeček s klouzačkou</p>
+          <p>Lavičky</p></p>
+          <p>Houpačka</p>
+          <p>Trojkladinka</p>
+          <p>Doskočišitě na skok daleký</p>
+          <p>Gorodky</p>
+          <p>Venkovní stůl na stolní tenis</p>
+          <p>Ohniště</p>
           <p>2 posilovací stroje</p>
           <div class="fotka_areal">
               <a href="img/areal/original/sokol_57.JPG" data-lightbox="hriste" data-title="Dětské hřiště"><img class="img_detail img_klikatelne" src="img/areal/sokol_tn_57.jpg"></a>
@@ -128,6 +129,7 @@
           <p>Celodenní provoz kuchyně</p></p>
           <p>Salónek pro 40 osob</p>
           <p>Terasa pro 25 osob</p>
+          <p><u>Pro rezervace volejte na: 377 423 737</u></p>
           <p>Prozovní - Daniel Starý (+420 731 537 328)</p>
           <div class="fotka_areal">
             <a href="img/areal/original/havran_1.jpg" data-lightbox="res" data-title="Restaurace U Havránka"><img class="img_detail img_klikatelne" src="img/areal/havran_tn_1.jpg"></a>
