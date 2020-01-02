@@ -36,12 +36,12 @@
             </tr>
             <tr>
               <td>Tělocvična</td>
-              <td>200 Kč/hod.<br>150 Kč/hod.*</td>
+              <td>240 Kč/hod.<br>180 Kč/hod.*</td>
               <td>100 Kč/hod.<br><span>mimo rozvrh</span><br>100 Kč/hod. <br><span>činnost dle rozvrhu</span></td>
             </tr>
             <tr>
               <td>Malá tělocvična</td>
-              <td>120 Kč/hod.<br>100 Kč/hod. *</td>
+              <td>130 Kč/hod.<br>110 Kč/hod. *</td>
               <td>60 Kč/hod.<br>50 Kč/hod. <br><span>(při dlouhodobém využívání)</span></td>
             </tr>
             <tr>
@@ -51,7 +51,7 @@
             </tr>
             <tr>
               <td>Místnost pro stolní tenis</td>
-              <td>60 Kč/hod. <br><span>jednorázový vstup i dlouhodobý pronájem</span></td>
+              <td>80 Kč/hod. <br><span>jednorázový vstup i dlouhodobý pronájem</span></td>
               <td>40 Kč/hod.</td>
             </tr>
             <tr>
@@ -75,12 +75,12 @@
             <tr>
               <td>Antukový kurt pro volejbal, nohejbal, tenis</td>
               <td>100 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
-              <td>140 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
+              <td>160 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
             </tr>
             <tr>
               <td>Beachvolejbalový kurt</td>
               <td>100 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
-              <td>140 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
+              <td>160 Kč/hod.<br><span>(jednorázově i dlouhodobě)</span></td>
             </tr>
             <tr>
               <td>Travnatá plocha</td>
