@@ -27,7 +27,7 @@
 
               </div>
 
-
+          <!--
             <div id="pf">
               <div class="text_pf">
                 <h2>PF 2020</h2>
@@ -35,6 +35,7 @@
                 <img src="img/stars.jpg" alt="hvezdy">
               </div>
             </div>
+          -->
 
 
 

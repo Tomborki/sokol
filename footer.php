@@ -60,7 +60,7 @@
                <a href="historie.php"> Historie </a>
                <a href="rezervace_info.php">Informace - rezervace</a>
                <a target="_blank" href="doc/GDPR-SokolDoubravka.pdf">GDPR</a>
-               <a target="_blank" href="https://drive.google.com/file/d/1QhANbZT-JFY8bZ96brNZva2fMRNsCI1u/view?usp=sharing"> Evidenční list </a>
+               <a target="_blank" href="doc/Evidencni_list_upraveny_2020.pdf"> Evidenční list </a>
 
           </article>
 
