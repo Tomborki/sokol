@@ -611,7 +611,7 @@ function vypis_akce_stranka($conn, $id_akce){
        function select_aktuality_podle_kategorie($conn, $kategorie){
 
 
-           $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC";
+           $sql = "SELECT id, nazev, dulezite, upoutavka, kategorie, time, url, obr0 FROM aktuality WHERE kategorie = '$kategorie' ORDER BY id DESC LIMIT 4";
            $result = mysqli_query($conn, $sql);
 
 

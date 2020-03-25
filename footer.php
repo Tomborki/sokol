@@ -53,9 +53,9 @@
                <a href="index.php"> Domů </a>
                <a href="areal.php"> Areál </a>
                <a href="akce.php"> Akce </a>
-               <a href="foto.php"> Foto </a>
                <a href="kontakt.php"> Kontakt </a>
                <a href="sv.php"> Sokolská všestrannost </a>
+               <a href="domaci_cviceni.php"> Domácí cvičení </a>
                <a href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview"> Rezervace </a>
                <a href="historie.php"> Historie </a>
                <a href="rezervace_info.php">Informace - rezervace</a>

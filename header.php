@@ -14,10 +14,11 @@
             <a href="areal.php" class="menu">Areál</a>
             <a href="oddily.php" class="menu">Oddíly</a>
             <a href="akce.php" class="menu">Akce</a>
-            <a href="foto.php" class="menu">Foto</a>
             <a href="kontakt.php" class="menu">Kontakt</a>
             <a href="sv.php" class="menu">Sokolská všestrannost</a>
+            <a href="domaci_cviceni.php" class="menu">Domácí cvičení</a>
             <a href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview" class="menu rezervace_nav" target="_blank">Rezervace</a>
+            
           </div>
     </nav>
 
@@ -38,10 +39,10 @@
       <ul id="menu">
       <a class="burg" href="areal.php"><li>Areál</li></a>
       <a class="burg" href="oddily.php"><li>Oddíly</li></a>
-      <a class="burg" href="akce.php"><li>Akce</li></a>
       <a class="burg" href="foto.php"><li>Foto</li></a>
       <a class="burg" href="kontakt.php"><li>Kontakt</li></a>
       <a class="burg" href="sv.php"><li>Sokolská všestrannost</li></a>
+      <a class="burg" href="domaci_cviceni.php"><li>Domácí cvičení</li></a>
       <a class="burg" href="https://jdemenato.cz/reservation/sokol-doubravka/reservationcalendaroverview"><li>Rezervace</li></a>
       </ul>
       </div>
